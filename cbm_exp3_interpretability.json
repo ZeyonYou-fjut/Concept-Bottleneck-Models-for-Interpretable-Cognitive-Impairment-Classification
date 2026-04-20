@@ -1,0 +1,136 @@
+{
+  "NACC": {
+    "classes": {
+      "Normal": {
+        "n_samples": 500,
+        "concept_means": {
+          "Visuospatial_Executive": 0.7643964886665344,
+          "Naming": 0.9173925518989563,
+          "Attention": 0.8176741003990173,
+          "Language": 0.8233993053436279,
+          "Abstraction": 0.7509803175926208,
+          "Delayed_Recall": 0.6380388140678406,
+          "Orientation": 0.8341825008392334
+        },
+        "concept_stds": {
+          "Visuospatial_Executive": 0.13540500402450562,
+          "Naming": 0.08806227147579193,
+          "Attention": 0.1158311516046524,
+          "Language": 0.14776325225830078,
+          "Abstraction": 0.14338278770446777,
+          "Delayed_Recall": 0.22263555228710175,
+          "Orientation": 0.11792728304862976
+        }
+      },
+      "MCI": {
+        "n_samples": 500,
+        "concept_means": {
+          "Visuospatial_Executive": 0.6429714560508728,
+          "Naming": 0.8701903223991394,
+          "Attention": 0.762495219707489,
+          "Language": 0.6365233063697815,
+          "Abstraction": 0.7107759714126587,
+          "Delayed_Recall": 0.3636578917503357,
+          "Orientation": 0.8111667037010193
+        },
+        "concept_stds": {
+          "Visuospatial_Executive": 0.16412709653377533,
+          "Naming": 0.13431231677532196,
+          "Attention": 0.1484609991312027,
+          "Language": 0.22582107782363892,
+          "Abstraction": 0.16905096173286438,
+          "Delayed_Recall": 0.22795186936855316,
+          "Orientation": 0.1579146832227707
+        }
+      },
+      "Dementia": {
+        "n_samples": 500,
+        "concept_means": {
+          "Visuospatial_Executive": 0.44800448417663574,
+          "Naming": 0.7035120725631714,
+          "Attention": 0.6145385503768921,
+          "Language": 0.38484904170036316,
+          "Abstraction": 0.608990490436554,
+          "Delayed_Recall": 0.20746469497680664,
+          "Orientation": 0.705633282661438
+        },
+        "concept_stds": {
+          "Visuospatial_Executive": 0.1979895383119583,
+          "Naming": 0.23410160839557648,
+          "Attention": 0.2546863555908203,
+          "Language": 0.22119013965129852,
+          "Abstraction": 0.2683718502521515,
+          "Delayed_Recall": 0.1823989301919937,
+          "Orientation": 0.35101357102394104
+        }
+      }
+    }
+  },
+  "PPMI": {
+    "classes": {
+      "Normal": {
+        "n_samples": 108,
+        "concept_means": {
+          "Visuospatial_Executive": 0.7543354630470276,
+          "Naming": 0.900196373462677,
+          "Attention": 0.8258422613143921,
+          "Language": 0.7010199427604675,
+          "Abstraction": 0.8514426350593567,
+          "Delayed_Recall": 0.6612670421600342,
+          "Orientation": 0.7988536357879639
+        },
+        "concept_stds": {
+          "Visuospatial_Executive": 0.17416661977767944,
+          "Naming": 0.11153774708509445,
+          "Attention": 0.12793661653995514,
+          "Language": 0.1609656661748886,
+          "Abstraction": 0.1867116093635559,
+          "Delayed_Recall": 0.21435235440731049,
+          "Orientation": 0.12430066615343094
+        }
+      },
+      "MCI": {
+        "n_samples": 108,
+        "concept_means": {
+          "Visuospatial_Executive": 0.6597158908843994,
+          "Naming": 0.9053003787994385,
+          "Attention": 0.7676924467086792,
+          "Language": 0.6639559268951416,
+          "Abstraction": 0.8095872402191162,
+          "Delayed_Recall": 0.5658621788024902,
+          "Orientation": 0.79435795545578
+        },
+        "concept_stds": {
+          "Visuospatial_Executive": 0.25769028067588806,
+          "Naming": 0.10138252377510071,
+          "Attention": 0.16500508785247803,
+          "Language": 0.2072998434305191,
+          "Abstraction": 0.2386895716190338,
+          "Delayed_Recall": 0.23226742446422577,
+          "Orientation": 0.13965916633605957
+        }
+      },
+      "Dementia": {
+        "n_samples": 108,
+        "concept_means": {
+          "Visuospatial_Executive": 0.43325352668762207,
+          "Naming": 0.830567479133606,
+          "Attention": 0.6531134247779846,
+          "Language": 0.5746951699256897,
+          "Abstraction": 0.7018675804138184,
+          "Delayed_Recall": 0.3776932954788208,
+          "Orientation": 0.663524866104126
+        },
+        "concept_stds": {
+          "Visuospatial_Executive": 0.3131870925426483,
+          "Naming": 0.21830014884471893,
+          "Attention": 0.24538977444171906,
+          "Language": 0.2622237801551819,
+          "Abstraction": 0.2931741178035736,
+          "Delayed_Recall": 0.24366313219070435,
+          "Orientation": 0.2825741767883301
+        }
+      }
+    }
+  }
+}

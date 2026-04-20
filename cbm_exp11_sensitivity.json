@@ -1,0 +1,319 @@
+{
+  "exp11a_preprocessing": [
+    {
+      "config": "P1_KNN5_Standard",
+      "imputer": "KNNImputer()",
+      "scaler": "StandardScaler()",
+      "dataset": "NACC",
+      "mean_ba": 0.9333333333333333,
+      "std_ba": 0.02076321533652999,
+      "mean_f1": 0.9325733872818365,
+      "std_f1": 0.020767580352067168,
+      "concept_validity_mean_r": 0.979127280198285,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9635073134161624,
+        "Naming": 0.990764080047791,
+        "Attention": 0.9674300069996407,
+        "Language": 0.9910973950459728,
+        "Abstraction": 0.9887544738121146,
+        "Delayed_Recall": 0.9947252976941934,
+        "Orientation": 0.9576123943721201
+      }
+    },
+    {
+      "config": "P2_KNN3_Standard",
+      "imputer": "KNNImputer(n_neighbors=3)",
+      "scaler": "StandardScaler()",
+      "dataset": "NACC",
+      "mean_ba": 0.9266666666666667,
+      "std_ba": 0.024129281427805148,
+      "mean_f1": 0.9256124515934656,
+      "std_f1": 0.02457729013674264,
+      "concept_validity_mean_r": 0.9467180077487602,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9584129979773856,
+        "Naming": 0.981848143935775,
+        "Attention": 0.9579088867165323,
+        "Language": 0.9897841340791765,
+        "Abstraction": 0.9850738465942926,
+        "Delayed_Recall": 0.786399633006818,
+        "Orientation": 0.9675984119313417
+      }
+    },
+    {
+      "config": "P3_KNN10_Standard",
+      "imputer": "KNNImputer(n_neighbors=10)",
+      "scaler": "StandardScaler()",
+      "dataset": "NACC",
+      "mean_ba": 0.9293333333333333,
+      "std_ba": 0.026948510575210312,
+      "mean_f1": 0.9283426489188201,
+      "std_f1": 0.027447771025615,
+      "concept_validity_mean_r": 0.9469101123752836,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.957844719305458,
+        "Naming": 0.981734270830431,
+        "Attention": 0.9598871877174455,
+        "Language": 0.9897186546871681,
+        "Abstraction": 0.9853992203664255,
+        "Delayed_Recall": 0.7858646696954271,
+        "Orientation": 0.9679220640246295
+      }
+    },
+    {
+      "config": "P4_SimpleMean_Standard",
+      "imputer": "SimpleImputer()",
+      "scaler": "StandardScaler()",
+      "dataset": "NACC",
+      "mean_ba": 0.9326666666666668,
+      "std_ba": 0.02174600857373346,
+      "mean_f1": 0.9317410140456793,
+      "std_f1": 0.021946756648173717,
+      "concept_validity_mean_r": 0.94990864521173,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9587878974275384,
+        "Naming": 0.9865784680056443,
+        "Attention": 0.9668370482663737,
+        "Language": 0.9901744668314927,
+        "Abstraction": 0.9879036805630967,
+        "Delayed_Recall": 0.7917634757620395,
+        "Orientation": 0.967315479625926
+      }
+    },
+    {
+      "config": "P5_KNN5_Robust",
+      "imputer": "KNNImputer()",
+      "scaler": "RobustScaler()",
+      "dataset": "NACC",
+      "mean_ba": 0.9513333333333334,
+      "std_ba": 0.014079141387961956,
+      "mean_f1": 0.9509263948158179,
+      "std_f1": 0.014342140575189014,
+      "concept_validity_mean_r": 0.9465023734615159,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9705875119210328,
+        "Naming": 0.9934030290772776,
+        "Attention": 0.9716268111489176,
+        "Language": 0.9909756818598396,
+        "Abstraction": 0.9798447507589437,
+        "Delayed_Recall": 0.7445850065134425,
+        "Orientation": 0.9744938229511578
+      }
+    },
+    {
+      "config": "P6_KNN5_MinMax",
+      "imputer": "KNNImputer()",
+      "scaler": "MinMaxScaler()",
+      "dataset": "NACC",
+      "mean_ba": 0.9480000000000001,
+      "std_ba": 0.01571976816340209,
+      "mean_f1": 0.9473076094175188,
+      "std_f1": 0.016405962668050948,
+      "concept_validity_mean_r": 0.9392758897491588,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9637028137187211,
+        "Naming": 0.9829562244488674,
+        "Attention": 0.9637356661805738,
+        "Language": 0.9823708233214031,
+        "Abstraction": 0.9483651750116213,
+        "Delayed_Recall": 0.7653916332623542,
+        "Orientation": 0.9684088923005705
+      }
+    }
+  ],
+  "exp11b_hyperparams": [
+    {
+      "config": "H1_lambda0.5_lr1e-3_bs32",
+      "lambda_concept": 0.5,
+      "lr": 0.001,
+      "batch_size": 32,
+      "dataset": "NACC",
+      "mean_ba": 0.932,
+      "std_ba": 0.022171052197754604,
+      "mean_f1": 0.931114336122006,
+      "std_f1": 0.02234063555633747,
+      "concept_validity_mean_r": 0.9795371331910276,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9637455872596654,
+        "Naming": 0.9884162828441904,
+        "Attention": 0.9656086409242888,
+        "Language": 0.9910029401656606,
+        "Abstraction": 0.9866454103078021,
+        "Delayed_Recall": 0.9962088557161285,
+        "Orientation": 0.9651322151194578
+      }
+    },
+    {
+      "config": "H2_lambda0.1_lr1e-3_bs32",
+      "lambda_concept": 0.1,
+      "lr": 0.001,
+      "batch_size": 32,
+      "dataset": "NACC",
+      "mean_ba": 0.9313333333333332,
+      "std_ba": 0.014996295838935983,
+      "mean_f1": 0.9306319534408056,
+      "std_f1": 0.015151854239954647,
+      "concept_validity_mean_r": 0.8606560281787291,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.6824408452863671,
+        "Naming": 0.9847302147101998,
+        "Attention": 0.7553955472971684,
+        "Language": 0.9926393810728134,
+        "Abstraction": 0.9916645251633202,
+        "Delayed_Recall": 0.6609510202795328,
+        "Orientation": 0.9567706634417024
+      }
+    },
+    {
+      "config": "H3_lambda1.0_lr1e-3_bs32",
+      "lambda_concept": 1.0,
+      "lr": 0.001,
+      "batch_size": 32,
+      "dataset": "NACC",
+      "mean_ba": 0.9373333333333331,
+      "std_ba": 0.01665332799572907,
+      "mean_f1": 0.9365363588152593,
+      "std_f1": 0.017108843110074184,
+      "concept_validity_mean_r": 0.9846940888740073,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9737389378776132,
+        "Naming": 0.9936492071412678,
+        "Attention": 0.9727311782636985,
+        "Language": 0.9886723466296374,
+        "Abstraction": 0.9942086982769103,
+        "Delayed_Recall": 0.9959844885821096,
+        "Orientation": 0.9738737653468147
+      }
+    },
+    {
+      "config": "H4_lambda0.5_lr5e-4_bs32",
+      "lambda_concept": 0.5,
+      "lr": 0.0005,
+      "batch_size": 32,
+      "dataset": "NACC",
+      "mean_ba": 0.9193333333333333,
+      "std_ba": 0.0128927197372091,
+      "mean_f1": 0.9182729982393714,
+      "std_f1": 0.013554398901102799,
+      "concept_validity_mean_r": 0.9497166046690568,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9588712819518443,
+        "Naming": 0.985934814155557,
+        "Attention": 0.974460464075213,
+        "Language": 0.9864379382922697,
+        "Abstraction": 0.9946548123521289,
+        "Delayed_Recall": 0.7773967865187466,
+        "Orientation": 0.9702601353376389
+      }
+    },
+    {
+      "config": "H5_lambda0.5_lr1e-3_bs64",
+      "lambda_concept": 0.5,
+      "lr": 0.001,
+      "batch_size": 64,
+      "dataset": "NACC",
+      "mean_ba": 0.9293333333333333,
+      "std_ba": 0.013888444437333064,
+      "mean_f1": 0.928132571106865,
+      "std_f1": 0.014614233087210864,
+      "concept_validity_mean_r": 0.9749361092418176,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9715955462972687,
+        "Naming": 0.9855189986874946,
+        "Attention": 0.9276549043602709,
+        "Language": 0.9909771313152191,
+        "Abstraction": 0.9796588518978544,
+        "Delayed_Recall": 0.9973192948276821,
+        "Orientation": 0.9718280373069329
+      }
+    },
+    {
+      "config": "H6_lambda0.5_lr1e-3_bs16",
+      "lambda_concept": 0.5,
+      "lr": 0.001,
+      "batch_size": 16,
+      "dataset": "NACC",
+      "mean_ba": 0.9366666666666668,
+      "std_ba": 0.014757295747452477,
+      "mean_f1": 0.9358698938702703,
+      "std_f1": 0.015181910905178697,
+      "concept_validity_mean_r": 0.9742204443634749,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9529242950278788,
+        "Naming": 0.9889357931553276,
+        "Attention": 0.9421305029357289,
+        "Language": 0.986684132281282,
+        "Abstraction": 0.9976147269498774,
+        "Delayed_Recall": 0.9933575882730397,
+        "Orientation": 0.9578960719211899
+      }
+    }
+  ],
+  "exp11c_ppmi": [
+    {
+      "config": "P1_KNN5_Standard",
+      "imputer": "KNNImputer()",
+      "scaler": "StandardScaler()",
+      "dataset": "PPMI",
+      "mean_ba": 0.5761904761904763,
+      "std_ba": 0.04994869819707426,
+      "mean_f1": 0.5640057137038688,
+      "std_f1": 0.04948445634238083,
+      "concept_validity_mean_r": 0.9006203498347679,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9411618487863607,
+        "Naming": 0.9548564388266291,
+        "Attention": 0.9353158361915246,
+        "Language": 0.7502915310007223,
+        "Abstraction": 0.9385371054872991,
+        "Delayed_Recall": 0.9884917154738523,
+        "Orientation": 0.7956879730769871
+      }
+    },
+    {
+      "config": "P4_SimpleMean_Standard",
+      "imputer": "SimpleImputer()",
+      "scaler": "StandardScaler()",
+      "dataset": "PPMI",
+      "mean_ba": 0.6012987012987013,
+      "std_ba": 0.05264997956103996,
+      "mean_f1": 0.5835467303366221,
+      "std_f1": 0.048925105030467334,
+      "concept_validity_mean_r": 0.8708155662727766,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9543521731255803,
+        "Naming": 0.8835600711889114,
+        "Attention": 0.8812778572336566,
+        "Language": 0.7226838712710567,
+        "Abstraction": 0.9233030276880667,
+        "Delayed_Recall": 0.9912215454111545,
+        "Orientation": 0.7393104179910097
+      }
+    },
+    {
+      "config": "P5_KNN5_Robust",
+      "imputer": "KNNImputer()",
+      "scaler": "RobustScaler()",
+      "dataset": "PPMI",
+      "mean_ba": 0.5799422799422799,
+      "std_ba": 0.04033802068607481,
+      "mean_f1": 0.5556229241110117,
+      "std_f1": 0.019715968072891884,
+      "concept_validity_mean_r": 0.7832276647426559,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9733470901853821,
+        "Naming": 0.33124590381883545,
+        "Attention": 0.8496723477152968,
+        "Language": 0.8358413117979387,
+        "Abstraction": 0.8134721427577958,
+        "Delayed_Recall": 0.9689457448141673,
+        "Orientation": 0.7100691121091748
+      }
+    }
+  ],
+  "summary": {
+    "preprocessing_ba_cv": 0.009976157896021385,
+    "hyperparams_ba_cv": 0.0063880767113367164,
+    "ppmi_preprocessing_ba_cv": 0.01887711043008006
+  }
+}

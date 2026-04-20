@@ -1,0 +1,247 @@
+{
+  "parameter_counts": {
+    "CBM-Supervised": 826,
+    "CBM-Hybrid": 2018,
+    "LR": 75,
+    "SVM": 7179,
+    "RF": 12186,
+    "MLP": 3779,
+    "XGBoost": 5372
+  },
+  "model_size_fp32_kb": {
+    "CBM-Supervised": 3.23,
+    "CBM-Hybrid": 7.88,
+    "LR": 1.24,
+    "SVM": 63.17,
+    "RF": 381.0,
+    "MLP": 67.64,
+    "XGBoost": 364.97
+  },
+  "model_size_int8_kb": {
+    "CBM-Supervised": 0.81,
+    "CBM-Hybrid": 1.97,
+    "LR": 0.31,
+    "SVM": 15.79,
+    "RF": 95.25,
+    "MLP": 16.91,
+    "XGBoost": 91.24
+  },
+  "inference_time_cpu_ms": {
+    "CBM-Supervised": 0.7318,
+    "CBM-Hybrid": 0.755,
+    "LR": 0.1351,
+    "SVM": 0.2637,
+    "RF": 6.4166,
+    "MLP": 0.2295,
+    "XGBoost": 3.7849
+  },
+  "memory_footprint_kb": {
+    "CBM-Supervised": 5.03,
+    "CBM-Hybrid": 12.01,
+    "LR": 1.86,
+    "SVM": 94.75,
+    "RF": 571.5,
+    "MLP": 101.46,
+    "XGBoost": 547.46
+  },
+  "edge_feasibility": {
+    "ESP32-S3": {
+      "sram_kb": 512,
+      "freq_mhz": 240,
+      "description": "Espressif ESP32-S3, 512KB SRAM, 240MHz dual-core (+ 8MB PSRAM opt)",
+      "models": {
+        "CBM-Supervised": {
+          "fits": true,
+          "model_int8_kb": 0.81,
+          "runtime_est_kb": 2.43,
+          "sram_available_kb": 512,
+          "est_latency_ms": 10.672,
+          "feasible": true
+        },
+        "CBM-Hybrid": {
+          "fits": true,
+          "model_int8_kb": 1.97,
+          "runtime_est_kb": 5.91,
+          "sram_available_kb": 512,
+          "est_latency_ms": 11.01,
+          "feasible": true
+        },
+        "LR": {
+          "fits": true,
+          "model_int8_kb": 0.31,
+          "runtime_est_kb": 0.93,
+          "sram_available_kb": 512,
+          "est_latency_ms": 1.97,
+          "feasible": true
+        },
+        "SVM": {
+          "fits": true,
+          "model_int8_kb": 15.79,
+          "runtime_est_kb": 47.37,
+          "sram_available_kb": 512,
+          "est_latency_ms": 3.846,
+          "feasible": true
+        },
+        "RF": {
+          "fits": true,
+          "model_int8_kb": 95.25,
+          "runtime_est_kb": 285.75,
+          "sram_available_kb": 512,
+          "est_latency_ms": 93.575,
+          "feasible": true
+        },
+        "MLP": {
+          "fits": true,
+          "model_int8_kb": 16.91,
+          "runtime_est_kb": 50.73,
+          "sram_available_kb": 512,
+          "est_latency_ms": 3.347,
+          "feasible": true
+        },
+        "XGBoost": {
+          "fits": true,
+          "model_int8_kb": 91.24,
+          "runtime_est_kb": 273.72,
+          "sram_available_kb": 512,
+          "est_latency_ms": 55.196,
+          "feasible": true
+        }
+      }
+    },
+    "ARM_Cortex_M7": {
+      "sram_kb": 1024,
+      "freq_mhz": 480,
+      "description": "STM32H7, 1MB SRAM, 480MHz",
+      "models": {
+        "CBM-Supervised": {
+          "fits": true,
+          "model_int8_kb": 0.81,
+          "runtime_est_kb": 2.43,
+          "sram_available_kb": 1024,
+          "est_latency_ms": 5.336,
+          "feasible": true
+        },
+        "CBM-Hybrid": {
+          "fits": true,
+          "model_int8_kb": 1.97,
+          "runtime_est_kb": 5.91,
+          "sram_available_kb": 1024,
+          "est_latency_ms": 5.505,
+          "feasible": true
+        },
+        "LR": {
+          "fits": true,
+          "model_int8_kb": 0.31,
+          "runtime_est_kb": 0.93,
+          "sram_available_kb": 1024,
+          "est_latency_ms": 0.985,
+          "feasible": true
+        },
+        "SVM": {
+          "fits": true,
+          "model_int8_kb": 15.79,
+          "runtime_est_kb": 47.37,
+          "sram_available_kb": 1024,
+          "est_latency_ms": 1.923,
+          "feasible": true
+        },
+        "RF": {
+          "fits": true,
+          "model_int8_kb": 95.25,
+          "runtime_est_kb": 285.75,
+          "sram_available_kb": 1024,
+          "est_latency_ms": 46.788,
+          "feasible": true
+        },
+        "MLP": {
+          "fits": true,
+          "model_int8_kb": 16.91,
+          "runtime_est_kb": 50.73,
+          "sram_available_kb": 1024,
+          "est_latency_ms": 1.673,
+          "feasible": true
+        },
+        "XGBoost": {
+          "fits": true,
+          "model_int8_kb": 91.24,
+          "runtime_est_kb": 273.72,
+          "sram_available_kb": 1024,
+          "est_latency_ms": 27.598,
+          "feasible": true
+        }
+      }
+    },
+    "Raspberry_Pi_4B": {
+      "sram_kb": 4194304,
+      "freq_mhz": 1500,
+      "description": "Raspberry Pi 4B, 4GB RAM, 1.5GHz quad-core ARM Cortex-A72",
+      "models": {
+        "CBM-Supervised": {
+          "fits": true,
+          "model_int8_kb": 0.81,
+          "runtime_est_kb": 2.43,
+          "sram_available_kb": 4194304,
+          "est_latency_ms": 1.708,
+          "feasible": true
+        },
+        "CBM-Hybrid": {
+          "fits": true,
+          "model_int8_kb": 1.97,
+          "runtime_est_kb": 5.91,
+          "sram_available_kb": 4194304,
+          "est_latency_ms": 1.762,
+          "feasible": true
+        },
+        "LR": {
+          "fits": true,
+          "model_int8_kb": 0.31,
+          "runtime_est_kb": 0.93,
+          "sram_available_kb": 4194304,
+          "est_latency_ms": 0.315,
+          "feasible": true
+        },
+        "SVM": {
+          "fits": true,
+          "model_int8_kb": 15.79,
+          "runtime_est_kb": 47.37,
+          "sram_available_kb": 4194304,
+          "est_latency_ms": 0.615,
+          "feasible": true
+        },
+        "RF": {
+          "fits": true,
+          "model_int8_kb": 95.25,
+          "runtime_est_kb": 285.75,
+          "sram_available_kb": 4194304,
+          "est_latency_ms": 14.972,
+          "feasible": true
+        },
+        "MLP": {
+          "fits": true,
+          "model_int8_kb": 16.91,
+          "runtime_est_kb": 50.73,
+          "sram_available_kb": 4194304,
+          "est_latency_ms": 0.536,
+          "feasible": true
+        },
+        "XGBoost": {
+          "fits": true,
+          "model_int8_kb": 91.24,
+          "runtime_est_kb": 273.72,
+          "sram_available_kb": 4194304,
+          "est_latency_ms": 8.831,
+          "feasible": true
+        }
+      }
+    }
+  },
+  "meta": {
+    "n_input_features": 24,
+    "n_concepts": 7,
+    "n_classes": 3,
+    "n_hidden_diag_head": 16,
+    "n_free_dims_hybrid": 8,
+    "ref_cpu_freq_mhz": 3500,
+    "inference_repeats": 1000
+  }
+}

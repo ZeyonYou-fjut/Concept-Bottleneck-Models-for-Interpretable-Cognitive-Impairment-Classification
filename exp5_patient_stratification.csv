@@ -1,0 +1,10 @@
+state,class,count,percentage
+State-1,NC,910,99.4535519125683
+State-1,MCI,5,0.546448087431694
+State-1,Dementia,0,0.0
+State-2,NC,1,0.09216589861751152
+State-2,MCI,743,68.47926267281106
+State-2,Dementia,341,31.428571428571427
+State-3,NC,0,0.0
+State-3,MCI,0,0.0
+State-3,Dementia,0,0.0

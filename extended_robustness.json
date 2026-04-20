@@ -1,0 +1,307 @@
+{
+  "noise_levels": [
+    0.01,
+    0.05,
+    0.1,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "n_repeats": 20,
+  "meta": {
+    "dataset": "NACC",
+    "n_folds": 10,
+    "seed": 42,
+    "n_concepts": 7,
+    "concept_names": [
+      "Visuospatial_Executive",
+      "Naming",
+      "Attention",
+      "Language",
+      "Abstraction",
+      "Delayed_Recall",
+      "Orientation"
+    ],
+    "note": "sigma=1.0 approximates 1-point MoCA sub-item clinical measurement error. noise added to standardized features after KNNImputer+StandardScaler."
+  },
+  "CBM_Supervised": {
+    "concept_pearson_mean": [
+      0.999972,
+      0.999291,
+      0.997207,
+      0.975814,
+      0.932654,
+      0.777401
+    ],
+    "concept_pearson_std": [
+      3e-06,
+      8.4e-05,
+      0.000289,
+      0.001412,
+      0.002801,
+      0.006716
+    ],
+    "concept_spearman_mean": [
+      0.919621,
+      0.918842,
+      0.917755,
+      0.907314,
+      0.869243,
+      0.726876
+    ],
+    "concept_spearman_std": [
+      0.004628,
+      0.004674,
+      0.004712,
+      0.004511,
+      0.004371,
+      0.007017
+    ],
+    "delta_BA_mean": [
+      0.001567,
+      0.005567,
+      0.009967,
+      0.031467,
+      0.069933,
+      0.185833
+    ],
+    "delta_BA_std": [
+      0.001407,
+      0.001795,
+      0.003322,
+      0.007904,
+      0.011091,
+      0.017775
+    ],
+    "agreement_mean": [
+      0.998167,
+      0.9903,
+      0.981233,
+      0.9404,
+      0.8916,
+      0.771533
+    ],
+    "agreement_std": [
+      0.00184,
+      0.005545,
+      0.006992,
+      0.008051,
+      0.008123,
+      0.013457
+    ],
+    "per_fold_detail": {
+      "0.01": {
+        "concept_pearson_mean": 0.999972,
+        "concept_pearson_std": 3e-06,
+        "concept_spearman_mean": 0.919621,
+        "concept_spearman_std": 0.004628,
+        "delta_ba_mean": 0.001567,
+        "delta_ba_std": 0.001407,
+        "agreement_mean": 0.998167,
+        "agreement_std": 0.00184,
+        "ba_clean_mean": 0.952667,
+        "n_folds": 10
+      },
+      "0.05": {
+        "concept_pearson_mean": 0.999291,
+        "concept_pearson_std": 8.4e-05,
+        "concept_spearman_mean": 0.918842,
+        "concept_spearman_std": 0.004674,
+        "delta_ba_mean": 0.005567,
+        "delta_ba_std": 0.001795,
+        "agreement_mean": 0.9903,
+        "agreement_std": 0.005545,
+        "ba_clean_mean": 0.952667,
+        "n_folds": 10
+      },
+      "0.1": {
+        "concept_pearson_mean": 0.997207,
+        "concept_pearson_std": 0.000289,
+        "concept_spearman_mean": 0.917755,
+        "concept_spearman_std": 0.004712,
+        "delta_ba_mean": 0.009967,
+        "delta_ba_std": 0.003322,
+        "agreement_mean": 0.981233,
+        "agreement_std": 0.006992,
+        "ba_clean_mean": 0.952667,
+        "n_folds": 10
+      },
+      "0.3": {
+        "concept_pearson_mean": 0.975814,
+        "concept_pearson_std": 0.001412,
+        "concept_spearman_mean": 0.907314,
+        "concept_spearman_std": 0.004511,
+        "delta_ba_mean": 0.031467,
+        "delta_ba_std": 0.007904,
+        "agreement_mean": 0.9404,
+        "agreement_std": 0.008051,
+        "ba_clean_mean": 0.952667,
+        "n_folds": 10
+      },
+      "0.5": {
+        "concept_pearson_mean": 0.932654,
+        "concept_pearson_std": 0.002801,
+        "concept_spearman_mean": 0.869243,
+        "concept_spearman_std": 0.004371,
+        "delta_ba_mean": 0.069933,
+        "delta_ba_std": 0.011091,
+        "agreement_mean": 0.8916,
+        "agreement_std": 0.008123,
+        "ba_clean_mean": 0.952667,
+        "n_folds": 10
+      },
+      "1.0": {
+        "concept_pearson_mean": 0.777401,
+        "concept_pearson_std": 0.006716,
+        "concept_spearman_mean": 0.726876,
+        "concept_spearman_std": 0.007017,
+        "delta_ba_mean": 0.185833,
+        "delta_ba_std": 0.017775,
+        "agreement_mean": 0.771533,
+        "agreement_std": 0.013457,
+        "ba_clean_mean": 0.952667,
+        "n_folds": 10
+      }
+    }
+  },
+  "CBM_Hybrid": {
+    "concept_pearson_mean": [
+      0.999972,
+      0.999292,
+      0.997102,
+      0.972417,
+      0.922185,
+      0.75656
+    ],
+    "concept_pearson_std": [
+      3e-06,
+      6.4e-05,
+      0.000229,
+      0.00192,
+      0.004971,
+      0.010623
+    ],
+    "concept_spearman_mean": [
+      0.922305,
+      0.920164,
+      0.919123,
+      0.907386,
+      0.869158,
+      0.727503
+    ],
+    "concept_spearman_std": [
+      0.010254,
+      0.005749,
+      0.005189,
+      0.004168,
+      0.004912,
+      0.007814
+    ],
+    "delta_BA_mean": [
+      0.000433,
+      0.0042,
+      0.009933,
+      0.051167,
+      0.095033,
+      0.2011
+    ],
+    "delta_BA_std": [
+      0.000803,
+      0.0015,
+      0.002005,
+      0.006634,
+      0.007612,
+      0.009447
+    ],
+    "agreement_mean": [
+      0.999567,
+      0.993333,
+      0.985133,
+      0.9377,
+      0.889233,
+      0.7825
+    ],
+    "agreement_std": [
+      0.000803,
+      0.00297,
+      0.003787,
+      0.007447,
+      0.007567,
+      0.008516
+    ],
+    "per_fold_detail": {
+      "0.01": {
+        "concept_pearson_mean": 0.999972,
+        "concept_pearson_std": 3e-06,
+        "concept_spearman_mean": 0.922305,
+        "concept_spearman_std": 0.010254,
+        "delta_ba_mean": 0.000433,
+        "delta_ba_std": 0.000803,
+        "agreement_mean": 0.999567,
+        "agreement_std": 0.000803,
+        "ba_clean_mean": 0.978667,
+        "n_folds": 10
+      },
+      "0.05": {
+        "concept_pearson_mean": 0.999292,
+        "concept_pearson_std": 6.4e-05,
+        "concept_spearman_mean": 0.920164,
+        "concept_spearman_std": 0.005749,
+        "delta_ba_mean": 0.0042,
+        "delta_ba_std": 0.0015,
+        "agreement_mean": 0.993333,
+        "agreement_std": 0.00297,
+        "ba_clean_mean": 0.978667,
+        "n_folds": 10
+      },
+      "0.1": {
+        "concept_pearson_mean": 0.997102,
+        "concept_pearson_std": 0.000229,
+        "concept_spearman_mean": 0.919123,
+        "concept_spearman_std": 0.005189,
+        "delta_ba_mean": 0.009933,
+        "delta_ba_std": 0.002005,
+        "agreement_mean": 0.985133,
+        "agreement_std": 0.003787,
+        "ba_clean_mean": 0.978667,
+        "n_folds": 10
+      },
+      "0.3": {
+        "concept_pearson_mean": 0.972417,
+        "concept_pearson_std": 0.00192,
+        "concept_spearman_mean": 0.907386,
+        "concept_spearman_std": 0.004168,
+        "delta_ba_mean": 0.051167,
+        "delta_ba_std": 0.006634,
+        "agreement_mean": 0.9377,
+        "agreement_std": 0.007447,
+        "ba_clean_mean": 0.978667,
+        "n_folds": 10
+      },
+      "0.5": {
+        "concept_pearson_mean": 0.922185,
+        "concept_pearson_std": 0.004971,
+        "concept_spearman_mean": 0.869158,
+        "concept_spearman_std": 0.004912,
+        "delta_ba_mean": 0.095033,
+        "delta_ba_std": 0.007612,
+        "agreement_mean": 0.889233,
+        "agreement_std": 0.007567,
+        "ba_clean_mean": 0.978667,
+        "n_folds": 10
+      },
+      "1.0": {
+        "concept_pearson_mean": 0.75656,
+        "concept_pearson_std": 0.010623,
+        "concept_spearman_mean": 0.727503,
+        "concept_spearman_std": 0.007814,
+        "delta_ba_mean": 0.2011,
+        "delta_ba_std": 0.009447,
+        "agreement_mean": 0.7825,
+        "agreement_std": 0.008516,
+        "ba_clean_mean": 0.978667,
+        "n_folds": 10
+      }
+    }
+  }
+}

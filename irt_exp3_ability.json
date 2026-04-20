@@ -1,0 +1,54 @@
+{
+  "NACC": {
+    "dataset": "NACC",
+    "classes": {
+      "Normal": {
+        "theta_mean": -0.07440638542175293,
+        "theta_std": 0.08804138004779816,
+        "theta_median": -0.09105799347162247,
+        "n_samples": 500
+      },
+      "MCI": {
+        "theta_mean": 0.16955478489398956,
+        "theta_std": 0.06406248360872269,
+        "theta_median": 0.1651603877544403,
+        "n_samples": 500
+      },
+      "Dementia": {
+        "theta_mean": 0.006595345214009285,
+        "theta_std": 0.2035609483718872,
+        "theta_median": 0.060040634125471115,
+        "n_samples": 500
+      }
+    },
+    "order_correct": false,
+    "theta_moca_pearson_r": 0.21561596016264564,
+    "theta_moca_pearson_p": 3.084707109633946e-17
+  },
+  "PPMI": {
+    "dataset": "PPMI",
+    "classes": {
+      "Normal": {
+        "theta_mean": -0.03285560384392738,
+        "theta_std": 0.2221052050590515,
+        "theta_median": -0.033383507281541824,
+        "n_samples": 108
+      },
+      "MCI": {
+        "theta_mean": 0.04389280453324318,
+        "theta_std": 0.2434941828250885,
+        "theta_median": 0.05154506117105484,
+        "n_samples": 108
+      },
+      "Dementia": {
+        "theta_mean": 0.11707636713981628,
+        "theta_std": 0.30446264147758484,
+        "theta_median": 0.14211812615394592,
+        "n_samples": 108
+      }
+    },
+    "order_correct": false,
+    "theta_moca_pearson_r": -0.15731000740909895,
+    "theta_moca_pearson_p": 0.004535040598477707
+  }
+}

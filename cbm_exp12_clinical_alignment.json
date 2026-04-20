@@ -1,0 +1,379 @@
+{
+  "exp12a_correlation": {
+    "NACC": {
+      "correlation_matrix": {
+        "Visuospatial_Executive": {
+          "MoCA_total": 0.7801396753614489,
+          "AGE": -0.07501097094880868,
+          "EDUCATION": 0.09193492967047642,
+          "GDS": -0.12394284153965503
+        },
+        "Naming": {
+          "MoCA_total": 0.5637715848963,
+          "AGE": -0.09917228384719652,
+          "EDUCATION": 0.08076458399584925,
+          "GDS": -0.14843799504671318
+        },
+        "Attention": {
+          "MoCA_total": 0.8161676342888654,
+          "AGE": 0.04414477627616807,
+          "EDUCATION": 0.13521985130881742,
+          "GDS": -0.20075695434970475
+        },
+        "Language": {
+          "MoCA_total": 0.7113787239659505,
+          "AGE": -0.013926039677036529,
+          "EDUCATION": 0.12695667538685504,
+          "GDS": -0.17367758342541012
+        },
+        "Abstraction": {
+          "MoCA_total": 0.6678036574718673,
+          "AGE": 0.026193327859648417,
+          "EDUCATION": 0.13478114597460963,
+          "GDS": -0.172413371305633
+        },
+        "Delayed_Recall": {
+          "MoCA_total": 0.7652115591026046,
+          "AGE": -0.143227757875416,
+          "EDUCATION": 0.08842329961273426,
+          "GDS": -0.14436490970918092
+        },
+        "Orientation": {
+          "MoCA_total": 0.7884357144372328,
+          "AGE": -0.044797816826825945,
+          "EDUCATION": 0.05467567275190086,
+          "GDS": -0.19802563376453744
+        }
+      },
+      "p_value_matrix": {
+        "Visuospatial_Executive": {
+          "MoCA_total": 1.578950429433088e-59,
+          "AGE": 0.3705026017259689,
+          "EDUCATION": 0.2506481714803449,
+          "GDS": 0.0768640113423241
+        },
+        "Naming": {
+          "MoCA_total": 8.416589569253008e-21,
+          "AGE": 0.21611524768558926,
+          "EDUCATION": 0.1841047311151533,
+          "GDS": 0.0679201311216496
+        },
+        "Attention": {
+          "MoCA_total": 7.206405849687307e-69,
+          "AGE": 0.2710017812227679,
+          "EDUCATION": 0.039637258044075266,
+          "GDS": 0.0059281828062855094
+        },
+        "Language": {
+          "MoCA_total": 1.1076427159804632e-42,
+          "AGE": 0.41271829812533134,
+          "EDUCATION": 0.08061319040020257,
+          "GDS": 0.05415583384290605
+        },
+        "Abstraction": {
+          "MoCA_total": 8.199300031428571e-38,
+          "AGE": 0.3304622300632597,
+          "EDUCATION": 0.08253402455376664,
+          "GDS": 0.035921072366734835
+        },
+        "Delayed_Recall": {
+          "MoCA_total": 5.441691193777806e-57,
+          "AGE": 0.10338467559155487,
+          "EDUCATION": 0.3735377332155022,
+          "GDS": 0.02324321755336154
+        },
+        "Orientation": {
+          "MoCA_total": 1.3178289969472259e-58,
+          "AGE": 0.38043808627206055,
+          "EDUCATION": 0.4312670089885751,
+          "GDS": 0.015884536462811197
+        }
+      },
+      "n_folds": 5,
+      "n_samples_per_fold": [
+        300,
+        300,
+        300,
+        300,
+        300
+      ]
+    },
+    "PPMI": {
+      "correlation_matrix": {
+        "Visuospatial_Executive": {
+          "MoCA_total": 0.7538716460326721,
+          "AGE": -0.13665299666111036,
+          "EDUCATION": 0.14221962393220997,
+          "GDS": -0.317219902033447
+        },
+        "Naming": {
+          "MoCA_total": 0.5045331100001474,
+          "AGE": -0.03365471003831059,
+          "EDUCATION": 0.16296154075838262,
+          "GDS": -0.21645199977736668
+        },
+        "Attention": {
+          "MoCA_total": 0.7684063827590821,
+          "AGE": 0.06107451380259373,
+          "EDUCATION": 0.15205580352023604,
+          "GDS": -0.3256841371526325
+        },
+        "Language": {
+          "MoCA_total": 0.5640423114143651,
+          "AGE": -0.023370939307504328,
+          "EDUCATION": 0.19584328402611156,
+          "GDS": -0.3361190586805943
+        },
+        "Abstraction": {
+          "MoCA_total": 0.5491237055939353,
+          "AGE": -0.05421343399020491,
+          "EDUCATION": 0.30557498293065527,
+          "GDS": -0.30471566070939693
+        },
+        "Delayed_Recall": {
+          "MoCA_total": 0.6919794475789189,
+          "AGE": -0.221122394114796,
+          "EDUCATION": 0.17904182944492242,
+          "GDS": -0.22278377555098644
+        },
+        "Orientation": {
+          "MoCA_total": 0.6302221987355624,
+          "AGE": -0.07380888294705831,
+          "EDUCATION": 0.11801860287422376,
+          "GDS": -0.29113954138372505
+        }
+      },
+      "p_value_matrix": {
+        "Visuospatial_Executive": {
+          "MoCA_total": 7.623951805946117e-11,
+          "AGE": 0.4783712218014561,
+          "EDUCATION": 0.5286972544416106,
+          "GDS": 0.07254036189574015
+        },
+        "Naming": {
+          "MoCA_total": 0.0024603820899424616,
+          "AGE": 0.15912775820919736,
+          "EDUCATION": 0.30292852160308864,
+          "GDS": 0.19070410477848004
+        },
+        "Attention": {
+          "MoCA_total": 5.6435161978204915e-11,
+          "AGE": 0.44433017842267375,
+          "EDUCATION": 0.4288065807257131,
+          "GDS": 0.03437126564433168
+        },
+        "Language": {
+          "MoCA_total": 0.000239895626828037,
+          "AGE": 0.6425709071301897,
+          "EDUCATION": 0.3183063250394194,
+          "GDS": 0.011741819114784845
+        },
+        "Abstraction": {
+          "MoCA_total": 4.7927010670541955e-05,
+          "AGE": 0.5562798294850948,
+          "EDUCATION": 0.06498017127938355,
+          "GDS": 0.026260590108920574
+        },
+        "Delayed_Recall": {
+          "MoCA_total": 4.027978897040349e-09,
+          "AGE": 0.22180283888093072,
+          "EDUCATION": 0.3081346059082404,
+          "GDS": 0.13302105535303543
+        },
+        "Orientation": {
+          "MoCA_total": 5.615838204607592e-06,
+          "AGE": 0.5058264192586368,
+          "EDUCATION": 0.4576787009122598,
+          "GDS": 0.06095996634520471
+        }
+      },
+      "n_folds": 5,
+      "n_samples_per_fold": [
+        65,
+        65,
+        65,
+        65,
+        64
+      ]
+    }
+  },
+  "exp12b_clinical_priors": {
+    "prior_checks": [
+      {
+        "prior": "AD: Delayed_Recall is most degraded domain (Normal→Dementia)",
+        "result": false,
+        "evidence": "Normal-Dementia diff: 0.4306, largest among 7 domains"
+      },
+      {
+        "prior": "AD: Orientation degrades more in MCI→Dementia than Normal→MCI",
+        "result": true,
+        "evidence": "Normal→MCI diff=0.0230, MCI→Dementia diff=0.1055"
+      },
+      {
+        "prior": "All concepts positively correlated with MoCA total (r>0.5)",
+        "result": true,
+        "evidence": "NACC min r=0.564, PPMI min r=0.505"
+      },
+      {
+        "prior": "PD: Visuospatial_Executive is among top degraded domains",
+        "result": true,
+        "evidence": "Visuospatial rank #1 in degradation (diff=0.3211)"
+      }
+    ],
+    "clinical_consistency_index": 0.75
+  },
+  "exp12c_discriminative_power": {
+    "NACC": {
+      "normal_vs_mci": [
+        {
+          "domain": "Delayed_Recall",
+          "cohens_d": 1.8062539356658733,
+          "roc_auc": 0.9326839999999998
+        },
+        {
+          "domain": "Visuospatial_Executive",
+          "cohens_d": 1.017736989778647,
+          "roc_auc": 0.8571639999999999
+        },
+        {
+          "domain": "Language",
+          "cohens_d": 0.9752000039728739,
+          "roc_auc": 0.822403
+        },
+        {
+          "domain": "Attention",
+          "cohens_d": 0.7575529191827831,
+          "roc_auc": 0.8215480000000001
+        },
+        {
+          "domain": "Abstraction",
+          "cohens_d": 0.644679064599211,
+          "roc_auc": 0.746079
+        },
+        {
+          "domain": "Orientation",
+          "cohens_d": 0.5364242177499865,
+          "roc_auc": 0.7657750000000001
+        },
+        {
+          "domain": "Naming",
+          "cohens_d": 0.4131672068964611,
+          "roc_auc": 0.6727470000000001
+        }
+      ],
+      "mci_vs_dementia": [
+        {
+          "domain": "Orientation",
+          "cohens_d": 1.6847562557602072,
+          "roc_auc": 0.8544499999999999
+        },
+        {
+          "domain": "Attention",
+          "cohens_d": 1.6591886464820074,
+          "roc_auc": 0.864698
+        },
+        {
+          "domain": "Visuospatial_Executive",
+          "cohens_d": 1.5739150413701861,
+          "roc_auc": 0.8509939999999999
+        },
+        {
+          "domain": "Language",
+          "cohens_d": 1.1101748753484006,
+          "roc_auc": 0.780724
+        },
+        {
+          "domain": "Abstraction",
+          "cohens_d": 1.1072283853855591,
+          "roc_auc": 0.764404
+        },
+        {
+          "domain": "Delayed_Recall",
+          "cohens_d": 1.0926848198303012,
+          "roc_auc": 0.764788
+        },
+        {
+          "domain": "Naming",
+          "cohens_d": 0.8733349466716706,
+          "roc_auc": 0.7065860000000002
+        }
+      ]
+    },
+    "PPMI": {
+      "normal_vs_mci": [
+        {
+          "domain": "Visuospatial_Executive",
+          "cohens_d": 0.533304133220018,
+          "roc_auc": 0.7314814814814815
+        },
+        {
+          "domain": "Attention",
+          "cohens_d": 0.490493399284655,
+          "roc_auc": 0.6963520233196159
+        },
+        {
+          "domain": "Delayed_Recall",
+          "cohens_d": 0.41651165147301983,
+          "roc_auc": 0.7077117626886145
+        },
+        {
+          "domain": "Language",
+          "cohens_d": 0.34758272052596983,
+          "roc_auc": 0.6746184842249657
+        },
+        {
+          "domain": "Orientation",
+          "cohens_d": 0.20682791721259589,
+          "roc_auc": 0.6675668724279835
+        },
+        {
+          "domain": "Abstraction",
+          "cohens_d": 0.138456369628408,
+          "roc_auc": 0.5826688957475994
+        },
+        {
+          "domain": "Naming",
+          "cohens_d": -0.07355519601351493,
+          "roc_auc": 0.5296639231824417
+        }
+      ],
+      "mci_vs_dementia": [
+        {
+          "domain": "Visuospatial_Executive",
+          "cohens_d": 1.007587832884018,
+          "roc_auc": 0.759173525377229
+        },
+        {
+          "domain": "Orientation",
+          "cohens_d": 0.9212532283749801,
+          "roc_auc": 0.7304955418381344
+        },
+        {
+          "domain": "Delayed_Recall",
+          "cohens_d": 0.7744179102442125,
+          "roc_auc": 0.7103480795610425
+        },
+        {
+          "domain": "Language",
+          "cohens_d": 0.6678215248715044,
+          "roc_auc": 0.6875428669410151
+        },
+        {
+          "domain": "Attention",
+          "cohens_d": 0.6627534789309426,
+          "roc_auc": 0.6589077503429355
+        },
+        {
+          "domain": "Abstraction",
+          "cohens_d": 0.5174882409316461,
+          "roc_auc": 0.6430041152263375
+        },
+        {
+          "domain": "Naming",
+          "cohens_d": 0.4413830478455659,
+          "roc_auc": 0.5764317558299039
+        }
+      ]
+    }
+  }
+}

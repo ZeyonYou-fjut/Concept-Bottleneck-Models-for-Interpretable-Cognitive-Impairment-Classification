@@ -1,0 +1,193 @@
+{
+  "per_fold": [
+    {
+      "Visuospatial_Executive": {
+        "pearson_r": -0.8161135075696851,
+        "p_value": 1.2073402862305434e-16
+      },
+      "Naming": {
+        "pearson_r": 0.9526442852619053,
+        "p_value": 2.8170638447092236e-34
+      },
+      "Attention": {
+        "pearson_r": -0.7710680402822938,
+        "p_value": 5.743412096095923e-14
+      },
+      "Language": {
+        "pearson_r": 0.9845911152845971,
+        "p_value": 1.9884325716513256e-49
+      },
+      "Abstraction": {
+        "pearson_r": 0.995646730724568,
+        "p_value": 1.1959343912001568e-66
+      },
+      "Delayed_Recall": {
+        "pearson_r": -0.9817057620894212,
+        "p_value": 4.245699219330009e-47
+      },
+      "Orientation": {
+        "pearson_r": -0.8770059717133012,
+        "p_value": 1.0024788814037923e-21
+      },
+      "overall_cosine_similarity": "0.9327316"
+    },
+    {
+      "Visuospatial_Executive": {
+        "pearson_r": 0.932094734157017,
+        "p_value": 1.757668417461852e-29
+      },
+      "Naming": {
+        "pearson_r": 0.9999999999999998,
+        "p_value": 0.0
+      },
+      "Attention": {
+        "pearson_r": 0.9481575287744631,
+        "p_value": 4.5569692460742126e-33
+      },
+      "Language": {
+        "pearson_r": -0.9394357331804517,
+        "p_value": 5.3504212994342e-31
+      },
+      "Abstraction": {
+        "pearson_r": 0.9997253863278469,
+        "p_value": 1.9997528167131086e-104
+      },
+      "Delayed_Recall": {
+        "pearson_r": 0.9990723790845085,
+        "p_value": 8.896254693585303e-88
+      },
+      "Orientation": {
+        "pearson_r": 0.8977796856135001,
+        "p_value": 4.082699223605595e-24
+      },
+      "overall_cosine_similarity": "0.95613474"
+    },
+    {
+      "Visuospatial_Executive": {
+        "pearson_r": -0.8687876589066844,
+        "p_value": 6.758168432707936e-21
+      },
+      "Naming": {
+        "pearson_r": 0.9966650738754124,
+        "p_value": 2.7465201047847867e-70
+      },
+      "Attention": {
+        "pearson_r": 0.9411014959785713,
+        "p_value": 2.2795841544358336e-31
+      },
+      "Language": {
+        "pearson_r": 0.9813687752418725,
+        "p_value": 7.507064720109492e-47
+      },
+      "Abstraction": {
+        "pearson_r": 0.9974716158246115,
+        "p_value": 4.532188238141439e-74
+      },
+      "Delayed_Recall": {
+        "pearson_r": 0.9971673118257585,
+        "p_value": 1.6182917419788398e-72
+      },
+      "Orientation": {
+        "pearson_r": 0.8626981178624725,
+        "p_value": 2.562817162714714e-20
+      },
+      "overall_cosine_similarity": "0.93563133"
+    },
+    {
+      "Visuospatial_Executive": {
+        "pearson_r": 0.9391728004767118,
+        "p_value": 6.108201313551657e-31
+      },
+      "Naming": {
+        "pearson_r": 0.9961667193904966,
+        "p_value": 2.1919808571923223e-68
+      },
+      "Attention": {
+        "pearson_r": -0.75835261919503,
+        "p_value": 2.552357386717162e-13
+      },
+      "Language": {
+        "pearson_r": 0.9884173333298458,
+        "p_value": 2.6206308415051543e-53
+      },
+      "Abstraction": {
+        "pearson_r": 0.99586485113516,
+        "p_value": 2.376250693421714e-67
+      },
+      "Delayed_Recall": {
+        "pearson_r": 0.9612706381394296,
+        "p_value": 5.693194998425064e-37
+      },
+      "Orientation": {
+        "pearson_r": -0.7372839946066704,
+        "p_value": 2.4958777506767496e-12
+      },
+      "overall_cosine_similarity": "0.97373044"
+    },
+    {
+      "Visuospatial_Executive": {
+        "pearson_r": 0.8729454214431104,
+        "p_value": 5.4061738689060475e-21
+      },
+      "Naming": {
+        "pearson_r": 0.9999902435535757,
+        "p_value": 1.009027458317265e-147
+      },
+      "Attention": {
+        "pearson_r": -0.8018121903409396,
+        "p_value": 1.708469863355711e-15
+      },
+      "Language": {
+        "pearson_r": 0.9804118073640413,
+        "p_value": 1.8346667671408943e-45
+      },
+      "Abstraction": {
+        "pearson_r": 0.9825582897204256,
+        "p_value": 5.183917533143762e-47
+      },
+      "Delayed_Recall": {
+        "pearson_r": 0.9921119870741595,
+        "p_value": 1.2360794096302689e-57
+      },
+      "Orientation": {
+        "pearson_r": -0.5418461604265473,
+        "p_value": 3.7643020562274363e-06
+      },
+      "overall_cosine_similarity": "0.9762093"
+    }
+  ],
+  "summary": {
+    "Visuospatial_Executive": {
+      "mean_pearson_r": 0.21186235792009392,
+      "std_pearson_r": 0.8613111878300364
+    },
+    "Naming": {
+      "mean_pearson_r": 0.989093264416278,
+      "std_pearson_r": 0.0182953282592336
+    },
+    "Attention": {
+      "mean_pearson_r": -0.0883947650130458,
+      "std_pearson_r": 0.8435821191870201
+    },
+    "Language": {
+      "mean_pearson_r": 0.5990706596079811,
+      "std_pearson_r": 0.7692583044626031
+    },
+    "Abstraction": {
+      "mean_pearson_r": 0.9942533747465223,
+      "std_pearson_r": 0.006026828306550232
+    },
+    "Delayed_Recall": {
+      "mean_pearson_r": 0.593583310806887,
+      "std_pearson_r": 0.7877634378474108
+    },
+    "Orientation": {
+      "mean_pearson_r": -0.07913166465410926,
+      "std_pearson_r": 0.7906037856476564
+    },
+    "overall_cosine_similarity": {
+      "mean": "0.9548875",
+      "std": "0.0182916"
+    }
+  }
+}

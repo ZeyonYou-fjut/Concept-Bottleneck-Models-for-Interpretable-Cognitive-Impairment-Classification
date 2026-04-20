@@ -1,0 +1,68 @@
+{
+  "exp11a_preprocessing": [
+    {
+      "config": "P1_KNN5_Standard",
+      "imputer": "KNNImputer()",
+      "scaler": "StandardScaler()",
+      "dataset": "NACC",
+      "mean_ba": 0.8850444745967135,
+      "std_ba": 0.01910331260239063,
+      "mean_f1": 0.8830500586334046,
+      "std_f1": 0.01963121281808083,
+      "concept_validity_mean_r": 0.9665233455651947,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9571658498850825,
+        "Naming": 0.9886940273079059,
+        "Attention": 0.94022497129602,
+        "Language": 0.9697409345336466,
+        "Abstraction": 0.9618116678721064,
+        "Delayed_Recall": 0.9914394745033592,
+        "Orientation": 0.9565864935582432
+      }
+    },
+    {
+      "config": "P2_KNN3_Standard",
+      "imputer": "KNNImputer(n_neighbors=3)",
+      "scaler": "StandardScaler()",
+      "dataset": "NACC",
+      "mean_ba": 0.885019347705915,
+      "std_ba": 0.03936557095587289,
+      "mean_f1": 0.8832849639274674,
+      "std_f1": 0.04002223601247226,
+      "concept_validity_mean_r": 0.9498079837726082,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9311086357722933,
+        "Naming": 0.9748233727104091,
+        "Attention": 0.9238959956835209,
+        "Language": 0.9296941415951104,
+        "Abstraction": 0.942376652740558,
+        "Delayed_Recall": 0.9937250933333089,
+        "Orientation": 0.953031994573057
+      }
+    },
+    {
+      "config": "P3_KNN10_Standard",
+      "imputer": "KNNImputer(n_neighbors=10)",
+      "scaler": "StandardScaler()",
+      "dataset": "NACC",
+      "mean_ba": 0.8800190964370068,
+      "std_ba": 0.02315109960255441,
+      "mean_f1": 0.8782855261424092,
+      "std_f1": 0.023549775784940396,
+      "concept_validity_mean_r": 0.9602656866035105,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9504899539797097,
+        "Naming": 0.9780948702062712,
+        "Attention": 0.8963612814709601,
+        "Language": 0.975984617842855,
+        "Abstraction": 0.976991250057993,
+        "Delayed_Recall": 0.9944697281246508,
+        "Orientation": 0.9494681045421332
+      }
+    }
+  ],
+  "summary": {
+    "preprocessing_ba_cv": 0.002675107748104532,
+    "note": "快速验证版本 - 使用3-fold和每类200样本"
+  }
+}

@@ -1,0 +1,723 @@
+{
+  "experiment": "CBM vs SHAP Interpretability Comparison",
+  "timestamp": "2026-04-13 09:21:59",
+  "n_folds": 5,
+  "domains": [
+    "Visuospatial_Executive",
+    "Naming",
+    "Attention",
+    "Language",
+    "Abstraction",
+    "Delayed_Recall",
+    "Orientation"
+  ],
+  "clinical_gold_standard": [
+    "Delayed_Recall",
+    "Language",
+    "Visuospatial_Executive",
+    "Orientation",
+    "Attention",
+    "Abstraction",
+    "Naming"
+  ],
+  "folds": {
+    "fold_0": {
+      "CBM": {
+        "balanced_accuracy": 0.93,
+        "importance_values": [
+          0.246292844414711,
+          0.026183007284998894,
+          0.09424079209566116,
+          0.16993354260921478,
+          0.05274977535009384,
+          0.6182589530944824,
+          -0.007821943610906601
+        ],
+        "ranking": [
+          "Delayed_Recall",
+          "Visuospatial_Executive",
+          "Language",
+          "Attention",
+          "Abstraction",
+          "Naming",
+          "Orientation"
+        ]
+      },
+      "Gradient": {
+        "balanced_accuracy": 0.9333333333333332,
+        "importance_values": [
+          0.2156446750426909,
+          0.05169995231521208,
+          0.1410589574614832,
+          0.10442453527304073,
+          0.06421267736080456,
+          0.12899650017213996,
+          0.17802235278332015
+        ],
+        "ranking": [
+          "Visuospatial_Executive",
+          "Orientation",
+          "Attention",
+          "Delayed_Recall",
+          "Language",
+          "Abstraction",
+          "Naming"
+        ]
+      },
+      "SHAP": {
+        "importance_values": [
+          1.059321883365392,
+          0.23463903067692052,
+          0.6893999672623501,
+          0.5641872320797797,
+          0.30591764746685474,
+          1.0986373557038642,
+          0.7513750966206617
+        ],
+        "ranking": [
+          "Delayed_Recall",
+          "Visuospatial_Executive",
+          "Orientation",
+          "Attention",
+          "Language",
+          "Abstraction",
+          "Naming"
+        ]
+      }
+    },
+    "fold_1": {
+      "CBM": {
+        "balanced_accuracy": 0.9333333333333332,
+        "importance_values": [
+          0.19813871383666992,
+          0.02870163507759571,
+          0.10426071286201477,
+          0.17589636147022247,
+          0.041464127600193024,
+          0.5287861824035645,
+          0.0077673583291471004
+        ],
+        "ranking": [
+          "Delayed_Recall",
+          "Visuospatial_Executive",
+          "Language",
+          "Attention",
+          "Abstraction",
+          "Naming",
+          "Orientation"
+        ]
+      },
+      "Gradient": {
+        "balanced_accuracy": 0.9466666666666667,
+        "importance_values": [
+          0.23207993536922533,
+          0.04203929663244101,
+          0.16117762554412687,
+          0.13124076805922716,
+          0.07570692307804014,
+          0.14485921172427577,
+          0.1551877498768845
+        ],
+        "ranking": [
+          "Visuospatial_Executive",
+          "Attention",
+          "Orientation",
+          "Delayed_Recall",
+          "Language",
+          "Abstraction",
+          "Naming"
+        ]
+      },
+      "SHAP": {
+        "importance_values": [
+          0.9956988063754372,
+          0.24065650686591689,
+          0.7840912070666428,
+          0.6190372312888884,
+          0.3329933938988127,
+          0.9914931507800004,
+          0.6632635103631578
+        ],
+        "ranking": [
+          "Visuospatial_Executive",
+          "Delayed_Recall",
+          "Attention",
+          "Orientation",
+          "Language",
+          "Abstraction",
+          "Naming"
+        ]
+      }
+    },
+    "fold_2": {
+      "CBM": {
+        "balanced_accuracy": 0.9533333333333333,
+        "importance_values": [
+          0.249846950173378,
+          0.023041296750307083,
+          0.10806736350059509,
+          0.14960049092769623,
+          0.05135822668671608,
+          0.6633091568946838,
+          0.003212189069017768
+        ],
+        "ranking": [
+          "Delayed_Recall",
+          "Visuospatial_Executive",
+          "Language",
+          "Attention",
+          "Abstraction",
+          "Naming",
+          "Orientation"
+        ]
+      },
+      "Gradient": {
+        "balanced_accuracy": 0.96,
+        "importance_values": [
+          0.1862588276582655,
+          0.05030755589171614,
+          0.1532435371863221,
+          0.11461086723728234,
+          0.07377079841256394,
+          0.15092912642758166,
+          0.15315561120867396
+        ],
+        "ranking": [
+          "Visuospatial_Executive",
+          "Attention",
+          "Orientation",
+          "Delayed_Recall",
+          "Language",
+          "Abstraction",
+          "Naming"
+        ]
+      },
+      "SHAP": {
+        "importance_values": [
+          0.8284584814777018,
+          0.24684466396161894,
+          0.7380781498684026,
+          0.5491335484826051,
+          0.3419777992002217,
+          1.0010176679450835,
+          0.6269020168544392
+        ],
+        "ranking": [
+          "Delayed_Recall",
+          "Visuospatial_Executive",
+          "Attention",
+          "Orientation",
+          "Language",
+          "Abstraction",
+          "Naming"
+        ]
+      }
+    },
+    "fold_3": {
+      "CBM": {
+        "balanced_accuracy": 0.9666666666666668,
+        "importance_values": [
+          0.3110378086566925,
+          0.021956756711006165,
+          0.07451045513153076,
+          0.16039274632930756,
+          0.04806642606854439,
+          0.5304514169692993,
+          -0.009635603986680508
+        ],
+        "ranking": [
+          "Delayed_Recall",
+          "Visuospatial_Executive",
+          "Language",
+          "Attention",
+          "Abstraction",
+          "Naming",
+          "Orientation"
+        ]
+      },
+      "Gradient": {
+        "balanced_accuracy": 0.9633333333333334,
+        "importance_values": [
+          0.20820564533175348,
+          0.04329152524180612,
+          0.16855790076883637,
+          0.10729471203073394,
+          0.07121312556779837,
+          0.13093742153732213,
+          0.1630047206178069
+        ],
+        "ranking": [
+          "Visuospatial_Executive",
+          "Attention",
+          "Orientation",
+          "Delayed_Recall",
+          "Language",
+          "Abstraction",
+          "Naming"
+        ]
+      },
+      "SHAP": {
+        "importance_values": [
+          1.0053188183248296,
+          0.2542778470573888,
+          0.8567154751146062,
+          0.4856210475675829,
+          0.3451503116887432,
+          0.9268934684663586,
+          0.7459082135303255
+        ],
+        "ranking": [
+          "Visuospatial_Executive",
+          "Delayed_Recall",
+          "Attention",
+          "Orientation",
+          "Language",
+          "Abstraction",
+          "Naming"
+        ]
+      }
+    },
+    "fold_4": {
+      "CBM": {
+        "balanced_accuracy": 0.9366666666666666,
+        "importance_values": [
+          0.22461073100566864,
+          0.018734615296125412,
+          0.11038074642419815,
+          0.185871884226799,
+          0.0838654637336731,
+          -0.11210059374570847,
+          -0.010499236173927784
+        ],
+        "ranking": [
+          "Visuospatial_Executive",
+          "Language",
+          "Attention",
+          "Abstraction",
+          "Naming",
+          "Orientation",
+          "Delayed_Recall"
+        ]
+      },
+      "Gradient": {
+        "balanced_accuracy": 0.9633333333333333,
+        "importance_values": [
+          0.25580945183229387,
+          0.04584781139049028,
+          0.15017219629313142,
+          0.13580483444177843,
+          0.07253338981886676,
+          0.16494248231152597,
+          0.16413305871938008
+        ],
+        "ranking": [
+          "Visuospatial_Executive",
+          "Delayed_Recall",
+          "Orientation",
+          "Attention",
+          "Language",
+          "Abstraction",
+          "Naming"
+        ]
+      },
+      "SHAP": {
+        "importance_values": [
+          1.0434974544769073,
+          0.2139172193210583,
+          0.6720762414314904,
+          0.5678428898140643,
+          0.2804398453950353,
+          0.9875960086449822,
+          0.7316695955714377
+        ],
+        "ranking": [
+          "Visuospatial_Executive",
+          "Delayed_Recall",
+          "Orientation",
+          "Attention",
+          "Language",
+          "Abstraction",
+          "Naming"
+        ]
+      }
+    }
+  },
+  "fold_importance_values": {
+    "CBM": [
+      [
+        0.246292844414711,
+        0.026183007284998894,
+        0.09424079209566116,
+        0.16993354260921478,
+        0.05274977535009384,
+        0.6182589530944824,
+        -0.007821943610906601
+      ],
+      [
+        0.19813871383666992,
+        0.02870163507759571,
+        0.10426071286201477,
+        0.17589636147022247,
+        0.041464127600193024,
+        0.5287861824035645,
+        0.0077673583291471004
+      ],
+      [
+        0.249846950173378,
+        0.023041296750307083,
+        0.10806736350059509,
+        0.14960049092769623,
+        0.05135822668671608,
+        0.6633091568946838,
+        0.003212189069017768
+      ],
+      [
+        0.3110378086566925,
+        0.021956756711006165,
+        0.07451045513153076,
+        0.16039274632930756,
+        0.04806642606854439,
+        0.5304514169692993,
+        -0.009635603986680508
+      ],
+      [
+        0.22461073100566864,
+        0.018734615296125412,
+        0.11038074642419815,
+        0.185871884226799,
+        0.0838654637336731,
+        -0.11210059374570847,
+        -0.010499236173927784
+      ]
+    ],
+    "Gradient": [
+      [
+        0.2156446750426909,
+        0.05169995231521208,
+        0.1410589574614832,
+        0.10442453527304073,
+        0.06421267736080456,
+        0.12899650017213996,
+        0.17802235278332015
+      ],
+      [
+        0.23207993536922533,
+        0.04203929663244101,
+        0.16117762554412687,
+        0.13124076805922716,
+        0.07570692307804014,
+        0.14485921172427577,
+        0.1551877498768845
+      ],
+      [
+        0.1862588276582655,
+        0.05030755589171614,
+        0.1532435371863221,
+        0.11461086723728234,
+        0.07377079841256394,
+        0.15092912642758166,
+        0.15315561120867396
+      ],
+      [
+        0.20820564533175348,
+        0.04329152524180612,
+        0.16855790076883637,
+        0.10729471203073394,
+        0.07121312556779837,
+        0.13093742153732213,
+        0.1630047206178069
+      ],
+      [
+        0.25580945183229387,
+        0.04584781139049028,
+        0.15017219629313142,
+        0.13580483444177843,
+        0.07253338981886676,
+        0.16494248231152597,
+        0.16413305871938008
+      ]
+    ],
+    "SHAP": [
+      [
+        1.059321883365392,
+        0.23463903067692052,
+        0.6893999672623501,
+        0.5641872320797797,
+        0.30591764746685474,
+        1.0986373557038642,
+        0.7513750966206617
+      ],
+      [
+        0.9956988063754372,
+        0.24065650686591689,
+        0.7840912070666428,
+        0.6190372312888884,
+        0.3329933938988127,
+        0.9914931507800004,
+        0.6632635103631578
+      ],
+      [
+        0.8284584814777018,
+        0.24684466396161894,
+        0.7380781498684026,
+        0.5491335484826051,
+        0.3419777992002217,
+        1.0010176679450835,
+        0.6269020168544392
+      ],
+      [
+        1.0053188183248296,
+        0.2542778470573888,
+        0.8567154751146062,
+        0.4856210475675829,
+        0.3451503116887432,
+        0.9268934684663586,
+        0.7459082135303255
+      ],
+      [
+        1.0434974544769073,
+        0.2139172193210583,
+        0.6720762414314904,
+        0.5678428898140643,
+        0.2804398453950353,
+        0.9875960086449822,
+        0.7316695955714377
+      ]
+    ]
+  },
+  "fold_rankings": {
+    "CBM": [
+      [
+        "Delayed_Recall",
+        "Visuospatial_Executive",
+        "Language",
+        "Attention",
+        "Abstraction",
+        "Naming",
+        "Orientation"
+      ],
+      [
+        "Delayed_Recall",
+        "Visuospatial_Executive",
+        "Language",
+        "Attention",
+        "Abstraction",
+        "Naming",
+        "Orientation"
+      ],
+      [
+        "Delayed_Recall",
+        "Visuospatial_Executive",
+        "Language",
+        "Attention",
+        "Abstraction",
+        "Naming",
+        "Orientation"
+      ],
+      [
+        "Delayed_Recall",
+        "Visuospatial_Executive",
+        "Language",
+        "Attention",
+        "Abstraction",
+        "Naming",
+        "Orientation"
+      ],
+      [
+        "Visuospatial_Executive",
+        "Language",
+        "Attention",
+        "Abstraction",
+        "Naming",
+        "Orientation",
+        "Delayed_Recall"
+      ]
+    ],
+    "Gradient": [
+      [
+        "Visuospatial_Executive",
+        "Orientation",
+        "Attention",
+        "Delayed_Recall",
+        "Language",
+        "Abstraction",
+        "Naming"
+      ],
+      [
+        "Visuospatial_Executive",
+        "Attention",
+        "Orientation",
+        "Delayed_Recall",
+        "Language",
+        "Abstraction",
+        "Naming"
+      ],
+      [
+        "Visuospatial_Executive",
+        "Attention",
+        "Orientation",
+        "Delayed_Recall",
+        "Language",
+        "Abstraction",
+        "Naming"
+      ],
+      [
+        "Visuospatial_Executive",
+        "Attention",
+        "Orientation",
+        "Delayed_Recall",
+        "Language",
+        "Abstraction",
+        "Naming"
+      ],
+      [
+        "Visuospatial_Executive",
+        "Delayed_Recall",
+        "Orientation",
+        "Attention",
+        "Language",
+        "Abstraction",
+        "Naming"
+      ]
+    ],
+    "SHAP": [
+      [
+        "Delayed_Recall",
+        "Visuospatial_Executive",
+        "Orientation",
+        "Attention",
+        "Language",
+        "Abstraction",
+        "Naming"
+      ],
+      [
+        "Visuospatial_Executive",
+        "Delayed_Recall",
+        "Attention",
+        "Orientation",
+        "Language",
+        "Abstraction",
+        "Naming"
+      ],
+      [
+        "Delayed_Recall",
+        "Visuospatial_Executive",
+        "Attention",
+        "Orientation",
+        "Language",
+        "Abstraction",
+        "Naming"
+      ],
+      [
+        "Visuospatial_Executive",
+        "Delayed_Recall",
+        "Attention",
+        "Orientation",
+        "Language",
+        "Abstraction",
+        "Naming"
+      ],
+      [
+        "Visuospatial_Executive",
+        "Delayed_Recall",
+        "Orientation",
+        "Attention",
+        "Language",
+        "Abstraction",
+        "Naming"
+      ]
+    ]
+  },
+  "average_importance": {
+    "CBM": [
+      0.24598540961742402,
+      0.023723462224006654,
+      0.0982920140028,
+      0.16833900511264802,
+      0.055500803887844084,
+      0.4457410231232643,
+      -0.003395447274670005
+    ],
+    "Gradient": [
+      0.21959970704684578,
+      0.04663722829433313,
+      0.15484204345077998,
+      0.11867514340841252,
+      0.07148738284761476,
+      0.14413294843456909,
+      0.16270069864121312
+    ],
+    "SHAP": [
+      0.9864590888040536,
+      0.2380670535765807,
+      0.7480722081486985,
+      0.5571643898465841,
+      0.3212957995299335,
+      1.0011275303080578,
+      0.7038236865880043
+    ]
+  },
+  "average_rankings": {
+    "CBM": [
+      "Delayed_Recall",
+      "Visuospatial_Executive",
+      "Language",
+      "Attention",
+      "Abstraction",
+      "Naming",
+      "Orientation"
+    ],
+    "Gradient": [
+      "Visuospatial_Executive",
+      "Orientation",
+      "Attention",
+      "Delayed_Recall",
+      "Language",
+      "Abstraction",
+      "Naming"
+    ],
+    "SHAP": [
+      "Delayed_Recall",
+      "Visuospatial_Executive",
+      "Attention",
+      "Orientation",
+      "Language",
+      "Abstraction",
+      "Naming"
+    ]
+  },
+  "ranking_consistency": {
+    "CBM_vs_Gradient": {
+      "spearman_rho": 0.25
+    },
+    "CBM_vs_SHAP": {
+      "spearman_rho": 0.7142857142857143
+    },
+    "Gradient_vs_SHAP": {
+      "spearman_rho": 0.75
+    }
+  },
+  "clinical_alignment": {
+    "CBM": {
+      "spearman_rho": 0.75
+    },
+    "Gradient": {
+      "spearman_rho": 0.4642857142857143
+    },
+    "SHAP": {
+      "spearman_rho": 0.75
+    }
+  },
+  "cross_fold_stability": {
+    "CBM": {
+      "mean_position_std": 1.1428571428571428
+    },
+    "Gradient": {
+      "mean_position_std": 0.6490799396308956
+    },
+    "interpretation": "lower is more stable",
+    "SHAP": {
+      "mean_position_std": 1.2597375820027774
+    }
+  }
+}

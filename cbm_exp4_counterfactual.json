@@ -1,0 +1,84 @@
+{
+  "NACC": {
+    "counterfactual_effects": {
+      "Visuospatial_Executive": {
+        "mean_delta_p": 0.07612072287499905,
+        "n_samples": 500
+      },
+      "Naming": {
+        "mean_delta_p": 0.006861889593303204,
+        "n_samples": 500
+      },
+      "Attention": {
+        "mean_delta_p": 0.05478529973328113,
+        "n_samples": 500
+      },
+      "Language": {
+        "mean_delta_p": 0.04761166936159134,
+        "n_samples": 500
+      },
+      "Abstraction": {
+        "mean_delta_p": 0.01680903211236,
+        "n_samples": 500
+      },
+      "Delayed_Recall": {
+        "mean_delta_p": 0.25120481702685354,
+        "n_samples": 500
+      },
+      "Orientation": {
+        "mean_delta_p": 0.012588248565793037,
+        "n_samples": 500
+      }
+    },
+    "sorted_by_effect": [
+      "Delayed_Recall",
+      "Visuospatial_Executive",
+      "Attention",
+      "Language",
+      "Abstraction",
+      "Orientation",
+      "Naming"
+    ]
+  },
+  "PPMI": {
+    "counterfactual_effects": {
+      "Visuospatial_Executive": {
+        "mean_delta_p": 0.011908154244776125,
+        "n_samples": 108
+      },
+      "Naming": {
+        "mean_delta_p": -0.0001351857488905942,
+        "n_samples": 108
+      },
+      "Attention": {
+        "mean_delta_p": 0.008654013000152729,
+        "n_samples": 108
+      },
+      "Language": {
+        "mean_delta_p": 0.015043010038358194,
+        "n_samples": 108
+      },
+      "Abstraction": {
+        "mean_delta_p": 0.0005228567730497431,
+        "n_samples": 108
+      },
+      "Delayed_Recall": {
+        "mean_delta_p": 0.007931677969517532,
+        "n_samples": 108
+      },
+      "Orientation": {
+        "mean_delta_p": 0.003310893075885596,
+        "n_samples": 108
+      }
+    },
+    "sorted_by_effect": [
+      "Language",
+      "Visuospatial_Executive",
+      "Attention",
+      "Delayed_Recall",
+      "Orientation",
+      "Abstraction",
+      "Naming"
+    ]
+  }
+}

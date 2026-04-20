@@ -1,0 +1,416 @@
+{
+  "exp10a_age": [
+    {
+      "group": "<65",
+      "n_samples": 236,
+      "n_normal": 94,
+      "n_mci": 51,
+      "n_dementia": 91,
+      "mean_ba": 0.8801453127768918,
+      "std_ba": 0.05302883436700753,
+      "mean_f1": 0.8773708154715021,
+      "std_f1": 0.04888668286586724,
+      "concept_validity_mean_r": 0.9372875277611834,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9595594805437858,
+        "Naming": 0.9442171502973018,
+        "Attention": 0.920974110902586,
+        "Language": 0.889309631964703,
+        "Abstraction": 0.984891377535005,
+        "Delayed_Recall": 0.9890008986635722,
+        "Orientation": 0.8730600444213303
+      },
+      "concept_means_by_diagnosis": {
+        "Normal": {
+          "Visuospatial_Executive": 0.8755511045455933,
+          "Naming": 0.8285282254219055,
+          "Attention": 0.7001498341560364,
+          "Language": 0.7230603098869324,
+          "Abstraction": 0.7591322064399719,
+          "Delayed_Recall": 0.7942818403244019,
+          "Orientation": 0.8851104378700256
+        },
+        "MCI": {
+          "Visuospatial_Executive": 0.7228116989135742,
+          "Naming": 0.8265662789344788,
+          "Attention": 0.6692919731140137,
+          "Language": 0.6192814111709595,
+          "Abstraction": 0.6620762944221497,
+          "Delayed_Recall": 0.3460458815097809,
+          "Orientation": 0.8557512760162354
+        },
+        "Dementia": {
+          "Visuospatial_Executive": 0.2212722897529602,
+          "Naming": 0.6932848691940308,
+          "Attention": 0.29533472657203674,
+          "Language": 0.3977569043636322,
+          "Abstraction": 0.4340747892856598,
+          "Delayed_Recall": 0.12050291895866394,
+          "Orientation": 0.5205065011978149
+        }
+      }
+    },
+    {
+      "group": "65-75",
+      "n_samples": 594,
+      "n_normal": 243,
+      "n_mci": 193,
+      "n_dementia": 158,
+      "mean_ba": 0.8965471548420856,
+      "std_ba": 0.021852995560923804,
+      "mean_f1": 0.8949545727433998,
+      "std_f1": 0.01957280391794112,
+      "concept_validity_mean_r": 0.9768771480126178,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9731506049084995,
+        "Naming": 0.9851911280907962,
+        "Attention": 0.952841266508979,
+        "Language": 0.9866429867581726,
+        "Abstraction": 0.9957834948932741,
+        "Delayed_Recall": 0.9969607340142477,
+        "Orientation": 0.9475698209143546
+      },
+      "concept_means_by_diagnosis": {
+        "Normal": {
+          "Visuospatial_Executive": 0.8019936680793762,
+          "Naming": 0.9053547382354736,
+          "Attention": 0.8256445527076721,
+          "Language": 0.8009458780288696,
+          "Abstraction": 0.8257611989974976,
+          "Delayed_Recall": 0.7396929264068604,
+          "Orientation": 0.9470650553703308
+        },
+        "MCI": {
+          "Visuospatial_Executive": 0.6243120431900024,
+          "Naming": 0.8694523572921753,
+          "Attention": 0.7635948657989502,
+          "Language": 0.6132392287254333,
+          "Abstraction": 0.7288818359375,
+          "Delayed_Recall": 0.36691173911094666,
+          "Orientation": 0.8799291253089905
+        },
+        "Dementia": {
+          "Visuospatial_Executive": 0.3346826434135437,
+          "Naming": 0.7046231627464294,
+          "Attention": 0.4377424120903015,
+          "Language": 0.40102699398994446,
+          "Abstraction": 0.5145666599273682,
+          "Delayed_Recall": 0.09821300208568573,
+          "Orientation": 0.4827672243118286
+        }
+      }
+    },
+    {
+      "group": ">75",
+      "n_samples": 670,
+      "n_normal": 163,
+      "n_mci": 256,
+      "n_dementia": 251,
+      "mean_ba": 0.9147031399972576,
+      "std_ba": 0.01828186271974392,
+      "mean_f1": 0.9057636382463977,
+      "std_f1": 0.020227619959698653,
+      "concept_validity_mean_r": 0.9359677384477035,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9472736061419618,
+        "Naming": 0.9556484148996427,
+        "Attention": 0.9668382593730934,
+        "Language": 0.9641446696500275,
+        "Abstraction": 0.9910796360890791,
+        "Delayed_Recall": 0.7613829455004286,
+        "Orientation": 0.9654066374796924
+      },
+      "concept_means_by_diagnosis": {
+        "Normal": {
+          "Visuospatial_Executive": 0.8044561743736267,
+          "Naming": 0.8905448913574219,
+          "Attention": 0.8543701171875,
+          "Language": 0.7854058146476746,
+          "Abstraction": 0.8627614974975586,
+          "Delayed_Recall": 0.5937848091125488,
+          "Orientation": 0.964621901512146
+        },
+        "MCI": {
+          "Visuospatial_Executive": 0.6457177400588989,
+          "Naming": 0.8254837393760681,
+          "Attention": 0.737734317779541,
+          "Language": 0.6031544804573059,
+          "Abstraction": 0.7501125335693359,
+          "Delayed_Recall": 0.3004637360572815,
+          "Orientation": 0.8909915685653687
+        },
+        "Dementia": {
+          "Visuospatial_Executive": 0.3572332561016083,
+          "Naming": 0.692641019821167,
+          "Attention": 0.41775819659233093,
+          "Language": 0.3800647258758545,
+          "Abstraction": 0.47605758905410767,
+          "Delayed_Recall": 0.16245941817760468,
+          "Orientation": 0.4847559928894043
+        }
+      }
+    }
+  ],
+  "exp10b_gender": [
+    {
+      "group": "Male",
+      "n_samples": 851,
+      "n_normal": 309,
+      "n_mci": 268,
+      "n_dementia": 274,
+      "mean_ba": 0.9383724715881341,
+      "std_ba": 0.019209767630935976,
+      "mean_f1": 0.9384913805158593,
+      "std_f1": 0.019507984261478376,
+      "concept_validity_mean_r": 0.9785133837224901,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9649017234620346,
+        "Naming": 0.993060064085611,
+        "Attention": 0.9604540827083129,
+        "Language": 0.9852709902513441,
+        "Abstraction": 0.9980661790935523,
+        "Delayed_Recall": 0.9957865508169194,
+        "Orientation": 0.9520540956396574
+      },
+      "concept_means_by_diagnosis": {
+        "Normal": {
+          "Visuospatial_Executive": 0.8341109156608582,
+          "Naming": 0.9075593948364258,
+          "Attention": 0.8288414478302002,
+          "Language": 0.8016039133071899,
+          "Abstraction": 0.8519241809844971,
+          "Delayed_Recall": 0.7608292698860168,
+          "Orientation": 0.9672873020172119
+        },
+        "MCI": {
+          "Visuospatial_Executive": 0.6634182929992676,
+          "Naming": 0.8579156398773193,
+          "Attention": 0.7045957446098328,
+          "Language": 0.6260792016983032,
+          "Abstraction": 0.7336355447769165,
+          "Delayed_Recall": 0.3535720407962799,
+          "Orientation": 0.8983744382858276
+        },
+        "Dementia": {
+          "Visuospatial_Executive": 0.3612474799156189,
+          "Naming": 0.6834464073181152,
+          "Attention": 0.34672197699546814,
+          "Language": 0.40699508786201477,
+          "Abstraction": 0.46549227833747864,
+          "Delayed_Recall": 0.09613366425037384,
+          "Orientation": 0.4980972707271576
+        }
+      }
+    },
+    {
+      "group": "Female",
+      "n_samples": 649,
+      "n_normal": 191,
+      "n_mci": 232,
+      "n_dementia": 226,
+      "mean_ba": 0.9057140185948793,
+      "std_ba": 0.019272875404865636,
+      "mean_f1": 0.9025330232071047,
+      "std_f1": 0.020567133136444822,
+      "concept_validity_mean_r": 0.9606434781139451,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.949389937209951,
+        "Naming": 0.9543858824966521,
+        "Attention": 0.8979586177357931,
+        "Language": 0.9770566815986461,
+        "Abstraction": 0.9862770112221745,
+        "Delayed_Recall": 0.9900288561143336,
+        "Orientation": 0.9694073604200656
+      },
+      "concept_means_by_diagnosis": {
+        "Normal": {
+          "Visuospatial_Executive": 0.778981626033783,
+          "Naming": 0.8907409310340881,
+          "Attention": 0.8291292190551758,
+          "Language": 0.7456529140472412,
+          "Abstraction": 0.8335707187652588,
+          "Delayed_Recall": 0.6998173594474792,
+          "Orientation": 0.9444268345832825
+        },
+        "MCI": {
+          "Visuospatial_Executive": 0.6385604739189148,
+          "Naming": 0.850265383720398,
+          "Attention": 0.767106294631958,
+          "Language": 0.5927234888076782,
+          "Abstraction": 0.7396902441978455,
+          "Delayed_Recall": 0.3154798746109009,
+          "Orientation": 0.8904545307159424
+        },
+        "Dementia": {
+          "Visuospatial_Executive": 0.3762722909450531,
+          "Naming": 0.7164168953895569,
+          "Attention": 0.48485133051872253,
+          "Language": 0.381989985704422,
+          "Abstraction": 0.47214096784591675,
+          "Delayed_Recall": 0.1278565675020218,
+          "Orientation": 0.4705718159675598
+        }
+      }
+    }
+  ],
+  "exp10c_education": [
+    {
+      "group": "<=12",
+      "n_samples": 285,
+      "n_normal": 33,
+      "n_mci": 94,
+      "n_dementia": 158,
+      "mean_ba": 0.8346378940181995,
+      "std_ba": 0.08356572167864924,
+      "mean_f1": 0.7934083821322107,
+      "std_f1": 0.07628025034054436,
+      "concept_validity_mean_r": 0.9435474405231826,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.8896665356138556,
+        "Naming": 0.8879007878333216,
+        "Attention": 0.9658464468892551,
+        "Language": 0.945316927154141,
+        "Abstraction": 0.9952753774184537,
+        "Delayed_Recall": 0.9827151799346895,
+        "Orientation": 0.9381108288185622
+      },
+      "concept_means_by_diagnosis": {
+        "Normal": {
+          "Visuospatial_Executive": 0.773286759853363,
+          "Naming": 0.8684650659561157,
+          "Attention": 0.8161285519599915,
+          "Language": 0.6938959956169128,
+          "Abstraction": 0.686316967010498,
+          "Delayed_Recall": 0.7288275361061096,
+          "Orientation": 0.8941517472267151
+        },
+        "MCI": {
+          "Visuospatial_Executive": 0.5890518426895142,
+          "Naming": 0.7897375226020813,
+          "Attention": 0.6736307740211487,
+          "Language": 0.5599462389945984,
+          "Abstraction": 0.610276997089386,
+          "Delayed_Recall": 0.343304842710495,
+          "Orientation": 0.8272227644920349
+        },
+        "Dementia": {
+          "Visuospatial_Executive": 0.31185463070869446,
+          "Naming": 0.679183840751648,
+          "Attention": 0.27438563108444214,
+          "Language": 0.3926338851451874,
+          "Abstraction": 0.42545124888420105,
+          "Delayed_Recall": 0.11282645910978317,
+          "Orientation": 0.5409897565841675
+        }
+      }
+    },
+    {
+      "group": "13-16",
+      "n_samples": 639,
+      "n_normal": 203,
+      "n_mci": 231,
+      "n_dementia": 205,
+      "mean_ba": 0.9091491241924444,
+      "std_ba": 0.015390422052812679,
+      "mean_f1": 0.9045462003631757,
+      "std_f1": 0.01787885287690206,
+      "concept_validity_mean_r": 0.9753021491928581,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9742872194731285,
+        "Naming": 0.9937789940365207,
+        "Attention": 0.9696437891889077,
+        "Language": 0.9603841297779407,
+        "Abstraction": 0.9970867555153637,
+        "Delayed_Recall": 0.9956945959008165,
+        "Orientation": 0.9362395604573281
+      },
+      "concept_means_by_diagnosis": {
+        "Normal": {
+          "Visuospatial_Executive": 0.8346481919288635,
+          "Naming": 0.9024767875671387,
+          "Attention": 0.8615419864654541,
+          "Language": 0.7596015334129333,
+          "Abstraction": 0.8069596886634827,
+          "Delayed_Recall": 0.7411721348762512,
+          "Orientation": 0.9625319838523865
+        },
+        "MCI": {
+          "Visuospatial_Executive": 0.6376601457595825,
+          "Naming": 0.877011239528656,
+          "Attention": 0.7401618957519531,
+          "Language": 0.5861625075340271,
+          "Abstraction": 0.7030454874038696,
+          "Delayed_Recall": 0.33527642488479614,
+          "Orientation": 0.9063067436218262
+        },
+        "Dementia": {
+          "Visuospatial_Executive": 0.25922566652297974,
+          "Naming": 0.6936923861503601,
+          "Attention": 0.3689132630825043,
+          "Language": 0.40668007731437683,
+          "Abstraction": 0.47076863050460815,
+          "Delayed_Recall": 0.08338181674480438,
+          "Orientation": 0.5053231120109558
+        }
+      }
+    },
+    {
+      "group": ">16",
+      "n_samples": 576,
+      "n_normal": 264,
+      "n_mci": 175,
+      "n_dementia": 137,
+      "mean_ba": 0.9033163365867768,
+      "std_ba": 0.027935964754383143,
+      "mean_f1": 0.9023311884008699,
+      "std_f1": 0.02866020975958706,
+      "concept_validity_mean_r": 0.9625538757219603,
+      "concept_validity_by_domain": {
+        "Visuospatial_Executive": 0.9374707752555023,
+        "Naming": 0.9523388012370659,
+        "Attention": 0.9212795645400957,
+        "Language": 0.9872931095181045,
+        "Abstraction": 0.9811105655496153,
+        "Delayed_Recall": 0.9942117719839164,
+        "Orientation": 0.9641725419694218
+      },
+      "concept_means_by_diagnosis": {
+        "Normal": {
+          "Visuospatial_Executive": 0.849378764629364,
+          "Naming": 0.9006707072257996,
+          "Attention": 0.8437067866325378,
+          "Language": 0.827365517616272,
+          "Abstraction": 0.8779289722442627,
+          "Delayed_Recall": 0.7478194236755371,
+          "Orientation": 0.9500664472579956
+        },
+        "MCI": {
+          "Visuospatial_Executive": 0.7328479886054993,
+          "Naming": 0.8461338877677917,
+          "Attention": 0.761402428150177,
+          "Language": 0.6677119731903076,
+          "Abstraction": 0.8142455220222473,
+          "Delayed_Recall": 0.3217533528804779,
+          "Orientation": 0.8947382569313049
+        },
+        "Dementia": {
+          "Visuospatial_Executive": 0.3964492380619049,
+          "Naming": 0.7359471917152405,
+          "Attention": 0.44107890129089355,
+          "Language": 0.3911792039871216,
+          "Abstraction": 0.610881507396698,
+          "Delayed_Recall": 0.10313388705253601,
+          "Orientation": 0.4643145799636841
+        }
+      }
+    }
+  ],
+  "summary": {
+    "age_ba_std_across_groups": 0.014114230967671698,
+    "age_ba_range": 0.03455782722036582,
+    "gender_ba_std_across_groups": 0.01632922649662738,
+    "gender_ba_range": 0.03265845299325476,
+    "education_ba_std_across_groups": 0.03383402841154235,
+    "education_ba_range": 0.07451123017424488
+  }
+}

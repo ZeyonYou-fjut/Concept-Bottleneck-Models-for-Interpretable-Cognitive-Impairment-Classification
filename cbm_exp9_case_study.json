@@ -1,0 +1,241 @@
+{
+  "cases": [
+    {
+      "case_id": "nacc_normal_0565",
+      "dataset": "NACC",
+      "true_label": "Normal",
+      "predicted_label": "Normal",
+      "probabilities": {
+        "Normal": 0.997455894947052,
+        "MCI": 0.0025441311299800873,
+        "Dementia": 3.1975588399291155e-08
+      },
+      "concept_predictions": {
+        "Visuospatial_Executive": 0.8986222147941589,
+        "Naming": 0.926486611366272,
+        "Attention": 0.9266223907470703,
+        "Language": 0.9237092137336731,
+        "Abstraction": 0.9431001543998718,
+        "Delayed_Recall": 0.8643324971199036,
+        "Orientation": 0.992435872554779
+      },
+      "concept_true": {
+        "Visuospatial_Executive": 1.0,
+        "Naming": 1.0,
+        "Attention": 1.0,
+        "Language": 1.0,
+        "Abstraction": 1.0,
+        "Delayed_Recall": 1.0,
+        "Orientation": 1.0
+      },
+      "input_features": {
+        "moca_items": {
+          "TRAIL_MAKING": 1.0,
+          "CUBE": 1.0,
+          "CLOCK_CONTOUR": 1.0,
+          "CLOCK_NUMBERS": 1.0,
+          "CLOCK_HANDS": 1.0,
+          "NAMING": 3.0,
+          "DIGIT_SPAN": 2.0,
+          "VIGILANCE": 1.0,
+          "SERIAL_7": 3.0,
+          "SENTENCE_REP": 2.0,
+          "FLUENCY": 1.0,
+          "ABSTRACTION": 2.0,
+          "DELAYED_RECALL": 5.0,
+          "ORIENT_DATE": 1.0,
+          "ORIENT_MONTH": 1.0,
+          "ORIENT_YEAR": 1.0,
+          "ORIENT_DAY": 1.0,
+          "ORIENT_PLACE": 1.0,
+          "ORIENT_CITY": 1.0
+        },
+        "demographics": {
+          "demo_feature": 49.0
+        }
+      },
+      "clinical_narrative": "Patient from NACC dataset, true diagnosis: Normal.\nModel prediction: Normal \n(P(Normal)=1.00, P(MCI)=0.00, P(Dementia)=0.00).\nCognitive domain assessment:\n  - Recall: predicted 0.86 (true 1.00, normal)\n  - Visuo-Exec: predicted 0.90 (true 1.00, normal)\n  - Language: predicted 0.92 (true 1.00, normal)\n  - Naming: predicted 0.93 (true 1.00, normal)\n  - Attention: predicted 0.93 (true 1.00, normal)\n  - Abstraction: predicted 0.94 (true 1.00, normal)\n  - Orient: predicted 0.99 (true 1.00, normal)\nMost severely impaired domain: Recall (predicted 0.86, normal)."
+    },
+    {
+      "case_id": "nacc_mci_0345",
+      "dataset": "NACC",
+      "true_label": "MCI",
+      "predicted_label": "MCI",
+      "probabilities": {
+        "Normal": 0.00046238774666562676,
+        "MCI": 0.9978471398353577,
+        "Dementia": 0.0016905500087887049
+      },
+      "concept_predictions": {
+        "Visuospatial_Executive": 0.8986222147941589,
+        "Naming": 0.926486611366272,
+        "Attention": 0.4780743420124054,
+        "Language": 0.9237092137336731,
+        "Abstraction": 0.48470067977905273,
+        "Delayed_Recall": 0.11342580616474152,
+        "Orientation": 0.992435872554779
+      },
+      "concept_true": {
+        "Visuospatial_Executive": 1.0,
+        "Naming": 1.0,
+        "Attention": 0.6666666865348816,
+        "Language": 1.0,
+        "Abstraction": 0.5,
+        "Delayed_Recall": 0.0,
+        "Orientation": 1.0
+      },
+      "input_features": {
+        "moca_items": {
+          "TRAIL_MAKING": 1.0,
+          "CUBE": 1.0,
+          "CLOCK_CONTOUR": 1.0,
+          "CLOCK_NUMBERS": 1.0,
+          "CLOCK_HANDS": 1.0,
+          "NAMING": 3.0,
+          "DIGIT_SPAN": 1.0,
+          "VIGILANCE": 1.0,
+          "SERIAL_7": 2.0,
+          "SENTENCE_REP": 2.0,
+          "FLUENCY": 1.0,
+          "ABSTRACTION": 1.0,
+          "DELAYED_RECALL": 0.0,
+          "ORIENT_DATE": 1.0,
+          "ORIENT_MONTH": 1.0,
+          "ORIENT_YEAR": 1.0,
+          "ORIENT_DAY": 1.0,
+          "ORIENT_PLACE": 1.0,
+          "ORIENT_CITY": 1.0
+        },
+        "demographics": {
+          "demo_feature": 78.0
+        }
+      },
+      "clinical_narrative": "Patient from NACC dataset, true diagnosis: MCI.\nModel prediction: MCI \n(P(Normal)=0.00, P(MCI)=1.00, P(Dementia)=0.00).\nCognitive domain assessment:\n  - Recall: predicted 0.11 (true 0.00, severe impairment)\n  - Attention: predicted 0.48 (true 0.67, moderate impairment)\n  - Abstraction: predicted 0.48 (true 0.50, moderate impairment)\n  - Visuo-Exec: predicted 0.90 (true 1.00, normal)\n  - Language: predicted 0.92 (true 1.00, normal)\n  - Naming: predicted 0.93 (true 1.00, normal)\n  - Orient: predicted 0.99 (true 1.00, normal)\nMost severely impaired domain: Recall (predicted 0.11, severe impairment)."
+    },
+    {
+      "case_id": "nacc_dementia_1322",
+      "dataset": "NACC",
+      "true_label": "Dementia",
+      "predicted_label": "Dementia",
+      "probabilities": {
+        "Normal": 8.637038431463448e-14,
+        "MCI": 3.5500167996360688e-06,
+        "Dementia": 0.9999964237213135
+      },
+      "concept_predictions": {
+        "Visuospatial_Executive": 0.19722969830036163,
+        "Naming": 0.22171597182750702,
+        "Attention": 0.23087053000926971,
+        "Language": 0.12919750809669495,
+        "Abstraction": 0.12085898965597153,
+        "Delayed_Recall": 0.11342580616474152,
+        "Orientation": 0.00815511867403984
+      },
+      "concept_true": {
+        "Visuospatial_Executive": 0.0,
+        "Naming": 0.0,
+        "Attention": 0.1666666716337204,
+        "Language": 0.0,
+        "Abstraction": 0.0,
+        "Delayed_Recall": 0.0,
+        "Orientation": 0.0
+      },
+      "input_features": {
+        "moca_items": {
+          "TRAIL_MAKING": 0.0,
+          "CUBE": 0.0,
+          "CLOCK_CONTOUR": 0.0,
+          "CLOCK_NUMBERS": 0.0,
+          "CLOCK_HANDS": 0.0,
+          "NAMING": 0.0,
+          "DIGIT_SPAN": 1.0,
+          "VIGILANCE": 0.0,
+          "SERIAL_7": 0.0,
+          "SENTENCE_REP": 0.0,
+          "FLUENCY": 0.0,
+          "ABSTRACTION": 0.0,
+          "DELAYED_RECALL": 0.0,
+          "ORIENT_DATE": 0.0,
+          "ORIENT_MONTH": 0.0,
+          "ORIENT_YEAR": 0.0,
+          "ORIENT_DAY": 0.0,
+          "ORIENT_PLACE": 0.0,
+          "ORIENT_CITY": 0.0
+        },
+        "demographics": {
+          "demo_feature": 62.0
+        }
+      },
+      "clinical_narrative": "Patient from NACC dataset, true diagnosis: Dementia.\nModel prediction: Dementia \n(P(Normal)=0.00, P(MCI)=0.00, P(Dementia)=1.00).\nCognitive domain assessment:\n  - Orient: predicted 0.01 (true 0.00, severe impairment)\n  - Recall: predicted 0.11 (true 0.00, severe impairment)\n  - Abstraction: predicted 0.12 (true 0.00, severe impairment)\n  - Language: predicted 0.13 (true 0.00, severe impairment)\n  - Visuo-Exec: predicted 0.20 (true 0.00, severe impairment)\n  - Naming: predicted 0.22 (true 0.00, severe impairment)\n  - Attention: predicted 0.23 (true 0.17, severe impairment)\nMost severely impaired domain: Orient (predicted 0.01, severe impairment)."
+    },
+    {
+      "case_id": "ppmi_pd_mci_0295",
+      "dataset": "PPMI",
+      "true_label": "MCI",
+      "predicted_label": "MCI",
+      "probabilities": {
+        "Normal": 0.13837139308452606,
+        "MCI": 0.6450546979904175,
+        "Dementia": 0.21657395362854004
+      },
+      "concept_predictions": {
+        "Visuospatial_Executive": 0.9644151329994202,
+        "Naming": 0.8206770420074463,
+        "Attention": 0.7107802033424377,
+        "Language": 0.523549497127533,
+        "Abstraction": 0.7908399105072021,
+        "Delayed_Recall": 0.8385663032531738,
+        "Orientation": 0.6070421934127808
+      },
+      "concept_true": {
+        "Visuospatial_Executive": 1.0,
+        "Naming": 1.0,
+        "Attention": 1.0,
+        "Language": 0.6666666865348816,
+        "Abstraction": 1.0,
+        "Delayed_Recall": 0.800000011920929,
+        "Orientation": 0.8333333134651184
+      },
+      "input_features": {
+        "moca_items": {
+          "TRAIL_MAKING": 1.0,
+          "CUBE": 1.0,
+          "CLOCK_CONTOUR": 1.0,
+          "CLOCK_NUMBERS": 1.0,
+          "CLOCK_HANDS": 1.0,
+          "NAMING": 3.0,
+          "DIGIT_SPAN": 2.0,
+          "VIGILANCE": 1.0,
+          "SERIAL_7": 3.0,
+          "SENTENCE_REP": 1.0,
+          "FLUENCY": 1.0,
+          "ABSTRACTION": 2.0,
+          "DELAYED_RECALL": 4.0,
+          "ORIENT_DATE": 1.0,
+          "ORIENT_MONTH": 0.0,
+          "ORIENT_YEAR": 1.0,
+          "ORIENT_DAY": 1.0,
+          "ORIENT_PLACE": 1.0,
+          "ORIENT_CITY": 1.0
+        },
+        "demographics": {
+          "demo_feature": 80.9000015258789
+        }
+      },
+      "clinical_narrative": "Patient from PPMI dataset, true diagnosis: MCI.\nModel prediction: MCI \n(P(Normal)=0.14, P(MCI)=0.65, P(Dementia)=0.22).\nCognitive domain assessment:\n  - Language: predicted 0.52 (true 0.67, mild impairment)\n  - Orient: predicted 0.61 (true 0.83, mild impairment)\n  - Attention: predicted 0.71 (true 1.00, mild impairment)\n  - Abstraction: predicted 0.79 (true 1.00, mild impairment)\n  - Naming: predicted 0.82 (true 1.00, normal)\n  - Recall: predicted 0.84 (true 0.80, normal)\n  - Visuo-Exec: predicted 0.96 (true 1.00, normal)\nMost severely impaired domain: Language (predicted 0.52, mild impairment)."
+    }
+  ],
+  "model_info": {
+    "nacc": {
+      "train_ba": 0.975267157085339,
+      "n_train": 1200,
+      "n_test": 300
+    },
+    "ppmi": {
+      "test_ba": 0.5553535353535354,
+      "n_train": 259,
+      "n_test": 65
+    }
+  },
+  "comparison_analysis": "=== Cognitive Pattern Comparison: NACC Dementia vs PPMI PD-MCI ===\n\nDomain-by-domain comparison (NACC Dementia vs PPMI PD-MCI):\n  Visuo-Exec: NACC=0.20, PPMI=0.96, diff=-0.77\n  Recall: NACC=0.11, PPMI=0.84, diff=-0.73\n  Abstraction: NACC=0.12, PPMI=0.79, diff=-0.67\n  Naming: NACC=0.22, PPMI=0.82, diff=-0.60\n  Orient: NACC=0.01, PPMI=0.61, diff=-0.60\n  Attention: NACC=0.23, PPMI=0.71, diff=-0.48\n  Language: NACC=0.13, PPMI=0.52, diff=-0.39\n\nClinical interpretation:\n  - NACC Dementia shows more severe Delayed Recall impairment (0.11 vs 0.84), consistent with AD-typical memory deficits.\n\nThis pattern differentiation supports the model's ability to capture disease-specific cognitive profiles."
+}

@@ -1,0 +1,184 @@
+{
+  "description": "Corrected completeness scores (Koh et al. 2020 definition)",
+  "method": "Train concept-only LR on train fold, evaluate on test fold (no data leakage)",
+  "NACC_3class": {
+    "CBM_Supervised": {
+      "completeness_mean": 1.011284,
+      "completeness_std": 0.011948,
+      "concept_only_BA": 0.958667,
+      "concept_only_BA_std": 0.016275,
+      "full_model_BA": 0.948,
+      "full_model_BA_std": 0.01392,
+      "per_fold_completeness": [
+        1.014286,
+        1.028571,
+        1.021277,
+        1.0,
+        1.013793,
+        1.028169,
+        1.013889,
+        1.0,
+        1.0,
+        0.992857
+      ],
+      "per_fold_BA_concept": [
+        0.946667,
+        0.96,
+        0.96,
+        0.94,
+        0.98,
+        0.973333,
+        0.973333,
+        0.973333,
+        0.953333,
+        0.926667
+      ],
+      "per_fold_BA_full": [
+        0.933333,
+        0.933333,
+        0.94,
+        0.94,
+        0.966667,
+        0.946667,
+        0.96,
+        0.973333,
+        0.953333,
+        0.933333
+      ]
+    },
+    "CBM_Hybrid": {
+      "completeness_mean": 0.961131,
+      "completeness_std": 0.017646,
+      "concept_only_BA": 0.938,
+      "concept_only_BA_std": 0.016879,
+      "full_model_BA": 0.976,
+      "full_model_BA_std": 0.010832,
+      "per_fold_completeness": [
+        0.95302,
+        0.958621,
+        0.986207,
+        0.951389,
+        0.965986,
+        0.931973,
+        0.986301,
+        0.958621,
+        0.979592,
+        0.939597
+      ],
+      "per_fold_BA_concept": [
+        0.946667,
+        0.926667,
+        0.953333,
+        0.913333,
+        0.946667,
+        0.913333,
+        0.96,
+        0.926667,
+        0.96,
+        0.933333
+      ],
+      "per_fold_BA_full": [
+        0.993333,
+        0.966667,
+        0.966667,
+        0.96,
+        0.98,
+        0.98,
+        0.973333,
+        0.966667,
+        0.98,
+        0.993333
+      ]
+    }
+  },
+  "NACC_binary": {
+    "CBM_Supervised": {
+      "completeness_mean": 0.999,
+      "completeness_std": 0.003,
+      "concept_only_BA": 0.999,
+      "concept_only_BA_std": 0.003,
+      "full_model_BA": 1.0,
+      "full_model_BA_std": 0.0,
+      "per_fold_completeness": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.99,
+        1.0,
+        1.0
+      ],
+      "per_fold_BA_concept": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.99,
+        1.0,
+        1.0
+      ],
+      "per_fold_BA_full": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "CBM_Hybrid": {
+      "completeness_mean": 0.997,
+      "completeness_std": 0.004583,
+      "concept_only_BA": 0.997,
+      "concept_only_BA_std": 0.004583,
+      "full_model_BA": 1.0,
+      "full_model_BA_std": 0.0,
+      "per_fold_completeness": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.99,
+        0.99,
+        0.99,
+        1.0
+      ],
+      "per_fold_BA_concept": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.99,
+        0.99,
+        0.99,
+        1.0
+      ],
+      "per_fold_BA_full": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  }
+}

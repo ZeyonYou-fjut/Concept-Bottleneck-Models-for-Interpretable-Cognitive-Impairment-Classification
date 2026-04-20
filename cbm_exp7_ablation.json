@@ -1,0 +1,244 @@
+{
+  "exp7a": [
+    {
+      "dataset": "PPMI",
+      "total_dims": 7,
+      "n_free": 0,
+      "mean_ba": 0.6418470418470419,
+      "std_ba": 0.07087414369093614
+    },
+    {
+      "dataset": "PPMI",
+      "total_dims": 11,
+      "n_free": 4,
+      "mean_ba": 0.5992784992784992,
+      "std_ba": 0.03304315767809495
+    },
+    {
+      "dataset": "PPMI",
+      "total_dims": 15,
+      "n_free": 8,
+      "mean_ba": 0.5761904761904761,
+      "std_ba": 0.03395686252255754
+    },
+    {
+      "dataset": "PPMI",
+      "total_dims": 23,
+      "n_free": 16,
+      "mean_ba": 0.561038961038961,
+      "std_ba": 0.02749514200554186
+    },
+    {
+      "dataset": "NACC",
+      "total_dims": 7,
+      "n_free": 0,
+      "mean_ba": 0.9339999999999999,
+      "std_ba": 0.015691469727919755
+    },
+    {
+      "dataset": "NACC",
+      "total_dims": 11,
+      "n_free": 4,
+      "mean_ba": 0.9800000000000001,
+      "std_ba": 0.008944271909999068
+    },
+    {
+      "dataset": "NACC",
+      "total_dims": 15,
+      "n_free": 8,
+      "mean_ba": 0.9793333333333333,
+      "std_ba": 0.004898979485566397
+    },
+    {
+      "dataset": "NACC",
+      "total_dims": 23,
+      "n_free": 16,
+      "mean_ba": 0.9800000000000001,
+      "std_ba": 0.006992058987800981
+    }
+  ],
+  "exp7b": [
+    {
+      "dataset": "PPMI",
+      "removed_domain": "Visuospatial_Executive",
+      "mean_ba": 0.5649350649350648,
+      "std_ba": 0.06771813748315664
+    },
+    {
+      "dataset": "PPMI",
+      "removed_domain": "Naming",
+      "mean_ba": 0.5950937950937951,
+      "std_ba": 0.08072222815191439
+    },
+    {
+      "dataset": "PPMI",
+      "removed_domain": "Attention",
+      "mean_ba": 0.6012987012987013,
+      "std_ba": 0.052945766074781506
+    },
+    {
+      "dataset": "PPMI",
+      "removed_domain": "Language",
+      "mean_ba": 0.5831168831168831,
+      "std_ba": 0.05852149237491055
+    },
+    {
+      "dataset": "PPMI",
+      "removed_domain": "Abstraction",
+      "mean_ba": 0.6197691197691197,
+      "std_ba": 0.07639735348888338
+    },
+    {
+      "dataset": "PPMI",
+      "removed_domain": "Delayed_Recall",
+      "mean_ba": 0.6008658008658008,
+      "std_ba": 0.07669169171810776
+    },
+    {
+      "dataset": "PPMI",
+      "removed_domain": "Orientation",
+      "mean_ba": 0.6014430014430014,
+      "std_ba": 0.07304723587673943
+    },
+    {
+      "dataset": "NACC",
+      "removed_domain": "Visuospatial_Executive",
+      "mean_ba": 0.8800000000000001,
+      "std_ba": 0.01490711984999859
+    },
+    {
+      "dataset": "NACC",
+      "removed_domain": "Naming",
+      "mean_ba": 0.9333333333333333,
+      "std_ba": 0.014605934866804426
+    },
+    {
+      "dataset": "NACC",
+      "removed_domain": "Attention",
+      "mean_ba": 0.8939999999999999,
+      "std_ba": 0.018306040290327976
+    },
+    {
+      "dataset": "NACC",
+      "removed_domain": "Language",
+      "mean_ba": 0.9119999999999999,
+      "std_ba": 0.010456258094238708
+    },
+    {
+      "dataset": "NACC",
+      "removed_domain": "Abstraction",
+      "mean_ba": 0.9193333333333333,
+      "std_ba": 0.013727506854649327
+    },
+    {
+      "dataset": "NACC",
+      "removed_domain": "Delayed_Recall",
+      "mean_ba": 0.8066666666666669,
+      "std_ba": 0.0094280904158206
+    },
+    {
+      "dataset": "NACC",
+      "removed_domain": "Orientation",
+      "mean_ba": 0.8959999999999999,
+      "std_ba": 0.018785337071473823
+    }
+  ],
+  "exp7c": [
+    {
+      "dataset": "PPMI",
+      "lambda_concept": 0.0,
+      "mean_ba": 0.6167388167388167,
+      "std_ba": 0.03923637412713579,
+      "mean_concept_r": -0.16068709082756905,
+      "std_concept_r": 0.37520372735242236
+    },
+    {
+      "dataset": "PPMI",
+      "lambda_concept": 0.1,
+      "mean_ba": 0.6388167388167387,
+      "std_ba": 0.03500758378552596,
+      "mean_concept_r": 0.14000491804536455,
+      "std_concept_r": 0.20655833297522144
+    },
+    {
+      "dataset": "PPMI",
+      "lambda_concept": 0.3,
+      "mean_ba": 0.6131313131313132,
+      "std_ba": 0.06745842687043752,
+      "mean_concept_r": 0.3868328390736179,
+      "std_concept_r": 0.291206857196876
+    },
+    {
+      "dataset": "PPMI",
+      "lambda_concept": 0.5,
+      "mean_ba": 0.602020202020202,
+      "std_ba": 0.037636066979503294,
+      "mean_concept_r": 0.5710939548417397,
+      "std_concept_r": 0.25279405333086913
+    },
+    {
+      "dataset": "PPMI",
+      "lambda_concept": 1.0,
+      "mean_ba": 0.6232323232323231,
+      "std_ba": 0.055971717644925076,
+      "mean_concept_r": 0.9187793767769387,
+      "std_concept_r": 0.03555892725032993
+    },
+    {
+      "dataset": "PPMI",
+      "lambda_concept": 2.0,
+      "mean_ba": 0.6109668109668109,
+      "std_ba": 0.037560748249711534,
+      "mean_concept_r": 0.9768085034732295,
+      "std_concept_r": 0.005144579321858087
+    },
+    {
+      "dataset": "NACC",
+      "lambda_concept": 0.0,
+      "mean_ba": 0.9386666666666666,
+      "std_ba": 0.0228619042659763,
+      "mean_concept_r": -0.0852051608616002,
+      "std_concept_r": 0.39998137236191544
+    },
+    {
+      "dataset": "NACC",
+      "lambda_concept": 0.1,
+      "mean_ba": 0.9393333333333332,
+      "std_ba": 0.012364824660660903,
+      "mean_concept_r": -0.07562339478275269,
+      "std_concept_r": 0.2705252553982776
+    },
+    {
+      "dataset": "NACC",
+      "lambda_concept": 0.3,
+      "mean_ba": 0.9373333333333334,
+      "std_ba": 0.014966629547095756,
+      "mean_concept_r": 0.46170520915852065,
+      "std_concept_r": 0.31299298003662596
+    },
+    {
+      "dataset": "NACC",
+      "lambda_concept": 0.5,
+      "mean_ba": 0.938,
+      "std_ba": 0.012036980056845224,
+      "mean_concept_r": 0.40962258928824297,
+      "std_concept_r": 0.3215807059590262
+    },
+    {
+      "dataset": "NACC",
+      "lambda_concept": 1.0,
+      "mean_ba": 0.9426666666666665,
+      "std_ba": 0.011035296904831233,
+      "mean_concept_r": 0.9862198819322394,
+      "std_concept_r": 0.0020991614528611214
+    },
+    {
+      "dataset": "NACC",
+      "lambda_concept": 2.0,
+      "mean_ba": 0.9413333333333332,
+      "std_ba": 0.02390722810272143,
+      "mean_concept_r": 0.9895401708415715,
+      "std_concept_r": 0.0009119409706619475
+    }
+  ]
+}
